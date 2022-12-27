@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <nav class="bg-[#08121B] border-b-2 border-[#0C4D8F] px-2 lg:px-28  py-3 md:px-14  dark:bg-gray-900">
+    <nav class="bg-[#27282D] border-b-2 border-[#0C4D8F] px-2 lg:px-28  py-3 md:px-14  dark:bg-[#1F2023]">
   <div class="container flex flex-wrap items-center justify-between mx-auto">
   <a href="https://flowbite.com/" class="flex items-center">
       <img src="Logo IKTANTec.png" class="h-12 mr-3 sm:h-15" alt="IKTAN Logo" />
@@ -15,7 +15,7 @@ const Header = () => {
     </button>
   </div>
   <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
-    <ul class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-[#08121B] md:flex-row md:space-x-16 lg:mr-32 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-[#08121B] dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+    <ul class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-[#1F2023] md:flex-row md:space-x-16 lg:mr-32 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-[#1F2023] dark:bg-[#1F2023] md:dark:bg-[#1F2023] dark:border-gray-700">
       <li>
         <a href="#" class="text-[16px]  block py-2 pl-3 pr-4 text-[#DDDEDE] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Home</a>
       </li>

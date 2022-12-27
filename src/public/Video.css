@@ -1,0 +1,36 @@
+.slider {
+    width: 25vh;
+    height: 72vh;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider .slide-track {
+    display: flex;
+    flex-direction: column;
+    animation: carru 40s linear infinite;
+    -webkit-animation: carru 40s linear infinite;
+    width: 200px;
+    height: calc(200px * 14);
+}
+
+.slider .slide {
+    width: 200px;
+    height: 200px;
+}
+
+.slider .slide img {
+    width: 70%;
+    height: 40%;
+}
+
+@keyframes carru {
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    0% {
+        -webkit-transform: translateY(calc(-200px * 7));
+        transform: translateY(calc(-200px * 7));
+    }
+} 
