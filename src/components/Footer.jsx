@@ -96,7 +96,7 @@ const Footer = () => {
   return (
     <>
       <footer className="bg-[#0D1117]" aria-labelledby="footer-heading">
-        <div className="mx-auto max-w-7xl py-12 lg:py-16 ">
+        <div className="mx-auto max-w-7xl py-10  ">
           <div className=" grid grid-cols-2 mb-12 px-12">
             <div>
               <img
@@ -127,7 +127,7 @@ const Footer = () => {
               <div className="grid grid-cols-1 justify-items-center">
                 <div className="md:grid md:grid-cols-2 md:gap-48">
                   <div>
-                    <h3 className="text-base font-medium text-[#21B1EA]">
+                    <h3 className="text-base font-bold text-white">
                       Company
                     </h3>
                     <ul role="list" className="mt-4 space-y-4">
@@ -135,7 +135,7 @@ const Footer = () => {
                         <li key={item.name}>
                           <a
                             href={item.href}
-                            className="text-base text-gray-300 hover:text-white"
+                            className="text-base text-[#35c6ff] hover:text-white"
                           >
                             {item.name}
                           </a>
@@ -144,13 +144,13 @@ const Footer = () => {
                     </ul>
                   </div>
                   <div className="mt-12 md:mt-0">
-                    <h3 className="text-base font-medium text-white">Legal</h3>
+                    <h3 className="text-base font-bold text-white">Legal</h3>
                     <ul role="list" className="mt-4 space-y-4">
                       {navigation.legal.map((item) => (
                         <li key={item.name}>
                           <a
                             href={item.href}
-                            className="text-base text-[#21B1EA] hover:text-white"
+                            className="text-base text-[#35c6ff] hover:text-white"
                           >
                             {item.name}
                           </a>
