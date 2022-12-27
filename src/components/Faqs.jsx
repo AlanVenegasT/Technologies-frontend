@@ -123,7 +123,7 @@ const Faqs = () => {
             </section>
 
             {/* //! Segundo diseño de las preguntas*/}
-            <div class="p-8">
+            {/* <div class="p-8">
                 <div class="bg-white p-4 rounded-lg shadow-xl py-8 mt-12">
                     <h4 class="text-4xl font-bold text-gray-800 tracking-widest uppercase text-center">FAQ</h4>
                     <p class="text-center text-gray-600 text-sm mt-2">Here are some of the frequently asked questions</p>
@@ -209,7 +209,7 @@ const Faqs = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </>
     )
 }
