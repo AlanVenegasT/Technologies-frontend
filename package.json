@@ -10,10 +10,13 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.0.13",
+    "css": "^3.0.0",
     "heroicons": "^2.0.13",
     "react": "^18.2.0",
+    "react-css-modules": "^4.7.11",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.5.0"
+    "react-router-dom": "^6.5.0",
+    "react-tsparticles": "^2.7.0"
   },
   "devDependencies": {
     "@tailwindcss/forms": "^0.5.3",
