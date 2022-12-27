@@ -122,10 +122,10 @@ const Footer = () => {
               </div>
             </div>
 
-            {/* //!Menu de navegación de quienes somos */}
+            {/* //!Menu de navegación de compañia y legal */}
             <div className="">
               <div className="grid grid-cols-1 justify-items-center">
-                <div className="md:grid md:grid-cols-2 md:gap-48">
+                <div className="sm:grid sm:grid-cols-2 sm:gap-16 md:grid md:grid-cols-2 md:gap-48">
                   <div>
                     <h3 className="text-base font-bold text-white">
                       Company
@@ -165,7 +165,7 @@ const Footer = () => {
           </div>
 
           <div className="mt-12 border-t border-gray-600 pt-8">
-            <p className="text-base text-gray-400 xl:text-center">
+            <p className="text-base text-gray-400 text-center">
               &copy; 2020 IKTAN Technologies. All rights reserved.
             </p>
           </div>

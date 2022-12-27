@@ -6,7 +6,7 @@ import Faqs from "../../components/Faqs";
 const Home = () => {
   return (
     <>
-      <Faqs />
+      
       <Footer />
     </>
   );
