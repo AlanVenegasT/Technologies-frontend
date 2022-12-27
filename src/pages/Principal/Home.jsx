@@ -1,13 +1,15 @@
 import React from "react";
-import Hero from "../../components/Principal/Hero";
-import Footer from "../../components/Footer";
 import Faqs from "../../components/Faqs";
+import Nosotros from "../About";
 
 const Home = () => {
   return (
     <>
-      <Faqs />
-      <Footer />
+    <div>
+      <p>
+        texto para ver el contenido del
+      </p>
+    </div>
     </>
   );
 };

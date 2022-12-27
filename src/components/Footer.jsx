@@ -1,6 +1,4 @@
-import React from "react";
-
-import { ChevronDownIcon } from "@heroicons/react/20/solid";
+import React from "react"; 
 
 const navigation = {
   solutions: [
@@ -95,14 +93,14 @@ const navigation = {
 const Footer = () => {
   return (
     <>
-      <footer className="bg-[#0D1117]" aria-labelledby="footer-heading">
+      <footer className="bg-[#1F2023]" aria-labelledby="footer-heading">
         <div className="mx-auto max-w-7xl py-10  ">
           <div className=" grid grid-cols-2 mb-12 px-12">
             <div>
               <img
-                className="h-20"
-                src="https://i.imgur.com/yTBVyhO.png"
-                alt="Company name"
+                src="Logo IKTANTec.png"
+                class="h-20 mr-3"
+                alt="IKTAN Logo"
               />
 
               {/* //!Menu de navegación de Redes sociales */}
@@ -127,9 +125,7 @@ const Footer = () => {
               <div className="grid grid-cols-1 justify-items-center">
                 <div className="sm:grid sm:grid-cols-2 sm:gap-16 md:grid md:grid-cols-2 md:gap-48">
                   <div>
-                    <h3 className="text-base font-bold text-white">
-                      Company
-                    </h3>
+                    <h3 className="text-base font-bold text-white">Company</h3>
                     <ul role="list" className="mt-4 space-y-4">
                       {navigation.company.map((item) => (
                         <li key={item.name}>
@@ -161,7 +157,6 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-
           </div>
 
           <div className="mt-12 border-t border-gray-600 pt-8">
