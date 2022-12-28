@@ -7,8 +7,8 @@
 
 .carrusel .carru-video {         /*.clider .clide-track*/
     display: flex;
-    animation: scroll 40s linear infinite;
-    -webkit-animation: scroll 40s linear infinite;
+    animation: carru 40s linear infinite;
+    -webkit-animation: carru 40s linear infinite;
     width: calc(200px * 14);
 }
 
@@ -20,7 +20,7 @@
     width: 100%;
 }
 
-@keyframes scroll {
+@keyframes carru {
     0% {
         -webkit-transform: translateX(0);
         transform: translateX(0);

@@ -6,8 +6,8 @@ export default function HeroD() {
     <div className="bg-[#1F2023]">
       <div className="mx-auto max-w-5xl py-16 px-4 text-center sm:py-16 sm:px-6 lg:px-4 ">
         <div className="">
-          <h3 className=" inline-flex w-full items-center justify-center rounded-md border border-white shadow-yellow-500 shadow-lg  bg-[#1F2023] px-5 py-3 text-base font-medium text-[#DDDEDE] hover:bg-[#08121B] sm:w-auto">
-            Accede a nuestra Charla informativa y conoce todo sobre Coderhouse
+          <h3 className=" inline-flex w-full items-center justify-center rounded-md   shadow-yellow-500 shadow-lg  bg-[#1F2023] px-8 py-4 text-base font-medium text-[#DDDEDE] hover:bg-[#1F2023] sm:w-auto">
+            Accede a nuestra Charla informativa y conoce todo sobre Coderhouse <span className=" lg:ml-5 lg:pl-5 border-l-2 border-[#2E2F36]"  > Ver ahora</span>
           </h3>
         </div>
         <h2 className="text-3xl font-bold tracking-tight text-white sm:text-6xl lg:mt-14 ">
@@ -26,15 +26,15 @@ export default function HeroD() {
         </p>
         <a
           href="#"
-          className="mt-12 inline-flex w-full items-center justify-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-indigo-600 hover:bg-indigo-50 sm:w-auto"
+          className="mt-12 inline-flex w-full items-center justify-center rounded-sm border border-transparent bg-[#EAFF6A] px-6 py-4 text-base font-light text-black  hover:bg-indigo-50 sm:w-auto"
         >
           Ver todos los cursos
         </a>
-        <span className="block mt-4 text-lg leading-6 text-indigo-200">
+        <span className="block mt-4 text-lg leading-6 text-[#EAFF6A]">
           Conoce más...
         </span>
 
-        <span className="block mt-28 text-lg leading-6 text-indigo-200">
+        <span className="block mt-28 text-xl leading-6 text-indigo-200">
           Nuestros programas están cocreados con expertos de
         </span>
       </div>
@@ -86,8 +86,8 @@ export default function HeroD() {
         </div>
       </div>
       <div className=" py-16 px-4 text-center sm:py-16 sm:px-6 lg:px-4">
-        <h3 className="lg:ml-16 inline-flex w-full items-center justify-center border-b-2 border-[#0C4D8F] bg-[#1F2023] px-96  py-3 text-base font-medium text-[#DDDEDE] hover:bg-[#1F2023] sm:w-auto">
-          Accede a nuestra Charla informativa y conoce todo sobre Coderhouse
+        <h3 className="lg:ml-16 inline-flex w-full items-center justify-center border-b-2 border-[#0C4D8F] bg-[#1F2023] px-96  py-3 text-lg font-medium text-[#EAFF6A] hover:bg-[#1F2023] sm:w-auto">
+          Accede a nuestra Charla informativa y conoce 
         </h3>
       </div>
     </div>

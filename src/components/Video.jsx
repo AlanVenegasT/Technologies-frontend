@@ -1,9 +1,10 @@
 import React from "react";
-import  "../public/Video.css"
+import  "./Diseños/Video.css"
+import "./Diseños/Video2.css"
 
 export default function Video() {
   return (
-    <div className="bg-[#1F2023]">
+    <div className="bg-[#1F2023] lg:pb-20">
       <div className="mx-auto max-w-7xl">
         <div className="grid  grid-cols-2 gap-4">
           <div className="row-span-2 row-start-1 row-end-4  bg-[#27282D] rounded-md lg:mr-4 lg:ml-8  ">
@@ -83,49 +84,49 @@ export default function Video() {
       </div>
               </div>
               <div className=" basis-1/3 bg-[#202226]"> {/*carrusel 2 */}
-              <div className="slider">
-        <div className="slide-track">
-          <div className="slide">
+              <div className="slidar">
+        <div className="slida-track">
+          <div className="slida">
             <img src="Logo IKTANTec.png" alt="alan" />
           </div>
-          <div className="slide">
+          <div className="slida">
             <img src="Logo IKTANTec.png" alt="alan2" />
           </div>
-          <div className="slide">
+          <div className="slida">
             <img src="Logo IKTANTec.png" alt="alan3" />
           </div>
-          <div className="slide">
+          <div className="slida">
             <img src="Logo IKTANTec.png" alt="alan4" />
           </div>
-          <div className="slide">
+          <div className="slida">
             <img src="Logo IKTANTec.png" alt="alan5" />
           </div>
-          <div className="slide">
+          <div className="slida">
             <img src="Logo IKTANTec.png" alt="alan6" />
           </div>
-          <div className="slide">
+          <div className="slida">
             <img src="Logo IKTANTec.png" alt="alan7" />
           </div>
 
-          <div className="slide">
+          <div className="slida">
             <img src="Logo IKTANTec.png" alt="alan8" />
           </div>
-          <div className="slide">
+          <div className="slida">
             <img src="Logo IKTANTec.png" alt="alan9" />
           </div>
-          <div className="slide">
+          <div className="slida">
             <img src="Logo IKTANTec.png" alt="alan10" />
           </div>
-          <div className="slide">
+          <div className="slida">
             <img src="Logo IKTANTec.png" alt="alan11" />
           </div>
-          <div className="slide">
+          <div className="slida">
             <img src="Logo IKTANTec.png" alt="alan12" />
           </div>
-          <div className="slide">
+          <div className="slida">
             <img src="Logo IKTANTec.png" alt="alan13" />
           </div>
-          <div className="slide">
+          <div className="slida">
             <img src="Logo IKTANTec.png" alt="alan14" />
           </div>
         </div>

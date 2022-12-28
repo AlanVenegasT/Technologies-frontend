@@ -2,6 +2,7 @@
 module.exports = {
   content: [ "index.html", "./src/**/*.jsx"],
   theme: {
+    transitionProperty: ['responsive', 'hover', 'focus', 'duration-500', 'ease-linear'],
     extend: {},
   },
   plugins: [
@@ -9,3 +10,5 @@ module.exports = {
     require('@tailwindcss/aspect-ratio'),
   ],
 }
+
+

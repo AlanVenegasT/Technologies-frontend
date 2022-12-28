@@ -1,35 +1,35 @@
-.slider {
+.slidar {
     width: 25vh;
-    height: 72vh;
+    height: 65vh;
     margin: auto;
     overflow: hidden;
 }
 
-.slider .slide-track {
+.slidar .slida-track {
     display: flex;
     flex-direction: column;
-    animation: scroll 40s linear infinite;
-    -webkit-animation: scroll 40s linear infinite;
+    animation: slida 40s linear infinite;
+    -webkit-animation: slida 40s linear infinite;
     width: 200px;
     height: calc(200px * 14);
 }
 
-.slider .slide {
+.slidar .slida {
     width: 200px;
     height: 200px;
 }
 
-.slider .slide img {
-    width: 85%;
+.slidar .slida img {
+    width: 75%;
     height: 50%;
 }
 
-@keyframes scroll {
-    0% {
+@keyframes slida {
+    100% {
         -webkit-transform: translateY(0);
         transform: translateY(0);
     }
-    100% {
+    0% {
         -webkit-transform: translateY(calc(-200px * 7));
         transform: translateY(calc(-200px * 7));
     }
