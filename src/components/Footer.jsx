@@ -1,6 +1,6 @@
 import React from "react";
 
-import { ChevronDownIcon } from "@heroicons/react/20/solid";
+import { ChevronDownIcon } from '@heroicons/react/20/solid'
 
 const navigation = {
   solutions: [
@@ -95,73 +95,105 @@ const navigation = {
 const Footer = () => {
   return (
     <>
-      <footer className="bg-[#0D1117]" aria-labelledby="footer-heading">
-        <div className="mx-auto max-w-7xl py-10  ">
-          <div className=" grid grid-cols-2 mb-12 px-12">
-            <div>
-              <img
-                className="h-20"
-                src="https://i.imgur.com/yTBVyhO.png"
-                alt="Company name"
-              />
-
-              {/* //!Menu de navegación de Redes sociales */}
-              <div className="mt-8 pt-8 md:flex md:items-center md:justify-between ">
-                <div className="flex space-x-6 md:order-2">
-                  {navigation.social.map((item) => (
-                    <a
-                      key={item.name}
-                      href={item.href}
-                      className="text-gray-400 hover:text-gray-300"
-                    >
-                      <span className="sr-only">{item.name}</span>
-                      <item.icon className="h-6 w-6" aria-hidden="true" />
-                    </a>
+      <footer className="bg-gray-800" aria-labelledby="footer-heading">
+      <h2 id="footer-heading" className="sr-only">
+        Footer
+      </h2>
+      <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+        <div className="pb-8 xl:grid xl:grid-cols-5 xl:gap-8">
+          <div className="grid grid-cols-2 gap-8 xl:col-span-4">
+            <div className="md:grid md:grid-cols-2 md:gap-8">
+              <div>
+                <h3 className="text-base font-medium text-white">Solutions</h3>
+                <ul role="list" className="mt-4 space-y-4">
+                  {navigation.solutions.map((item) => (
+                    <li key={item.name}>
+                      <a href={item.href} className="text-base text-gray-300 hover:text-white">
+                        {item.name}
+                      </a>
+                    </li>
                   ))}
                 </div>
               </div>
             </div>
-
-            {/* //!Menu de navegación de compañia y legal */}
-            <div className="">
-              <div className="grid grid-cols-1 justify-items-center">
-                <div className="sm:grid sm:grid-cols-2 sm:gap-16 md:grid md:grid-cols-2 md:gap-48">
-                  <div>
-                    <h3 className="text-base font-bold text-white">
-                      Company
-                    </h3>
-                    <ul role="list" className="mt-4 space-y-4">
-                      {navigation.company.map((item) => (
-                        <li key={item.name}>
-                          <a
-                            href={item.href}
-                            className="text-base text-[#35c6ff] hover:text-white"
-                          >
-                            {item.name}
-                          </a>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                  <div className="mt-12 md:mt-0">
-                    <h3 className="text-base font-bold text-white">Legal</h3>
-                    <ul role="list" className="mt-4 space-y-4">
-                      {navigation.legal.map((item) => (
-                        <li key={item.name}>
-                          <a
-                            href={item.href}
-                            className="text-base text-[#35c6ff] hover:text-white"
-                          >
-                            {item.name}
-                          </a>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                </div>
+            <div className="md:grid md:grid-cols-2 md:gap-8">
+              <div>
+                <h3 className="text-base font-medium text-white">Company</h3>
+                <ul role="list" className="mt-4 space-y-4">
+                  {navigation.company.map((item) => (
+                    <li key={item.name}>
+                      <a href={item.href} className="text-base text-gray-300 hover:text-white">
+                        {item.name}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <div className="mt-12 md:mt-0">
+                <h3 className="text-base font-medium text-white">Legal</h3>
+                <ul role="list" className="mt-4 space-y-4">
+                  {navigation.legal.map((item) => (
+                    <li key={item.name}>
+                      <a href={item.href} className="text-base text-gray-300 hover:text-white">
+                        {item.name}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
               </div>
             </div>
-
+          </div>
+          <div className="mt-12 xl:mt-0">
+            <h3 className="text-base font-medium text-white">Language &amp; Currency</h3>
+            <form className="mt-4 sm:max-w-xs">
+              <fieldset className="w-full">
+                <label htmlFor="language" className="sr-only">
+                  Language
+                </label>
+                <div className="relative">
+                  <select
+                    id="language"
+                    name="language"
+                    className="block w-full appearance-none rounded-md border border-transparent bg-gray-700 bg-none py-2 pl-3 pr-10 text-base text-white focus:border-white focus:outline-none focus:ring-white sm:text-sm"
+                    defaultValue="English"
+                  >
+                    <option>English</option>
+                    <option>French</option>
+                    <option>German</option>
+                    <option>Japanese</option>
+                    <option>Spanish</option>
+                  </select>
+                  <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2">
+                    <ChevronDownIcon className="h-4 w-4 text-white" aria-hidden="true" />
+                  </div>
+                </div>
+              </fieldset>
+              <fieldset className="mt-4 w-full">
+                <label htmlFor="currency" className="sr-only">
+                  Currency
+                </label>
+                <div className="relative mt-1.5">
+                  <select
+                    id="currency"
+                    name="currency"
+                    className="block w-full appearance-none rounded-md border border-transparent bg-gray-700 bg-none py-2 pl-3 pr-10 text-base text-white focus:border-white focus:outline-none focus:ring-white sm:text-sm"
+                    defaultValue="AUD"
+                  >
+                    <option>ARS</option>
+                    <option>AUD</option>
+                    <option>CAD</option>
+                    <option>CHF</option>
+                    <option>EUR</option>
+                    <option>GBP</option>
+                    <option>JPY</option>
+                    <option>USD</option>
+                  </select>
+                  <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2">
+                    <ChevronDownIcon className="h-4 w-4 text-white" aria-hidden="true" />
+                  </div>
+                </div>
+              </fieldset>
+            </form>
           </div>
 
           <div className="mt-12 border-t border-gray-600 pt-8">
