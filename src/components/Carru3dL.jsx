@@ -1,46 +1,84 @@
-import React from "react";
-import "./Carrusel/Carru3dL.css";
+import React, { useRef, useEffect } from "react";
 
 export default function Carru3dL() {
+  const slider = useRef();
+  const images = [...Array(25).keys()];
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      slider.current.scrollLeft += 200;
+    }, 3000); // se moverá cada 2 segundos
+
+    return () => clearInterval(interval);
+  }, []); // se ejecutará solo una vez
+
   return (
-    
-    <div id="animation-carousel" class="relative" data-carousel="static">
-    
-    <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
-        
-        <div class="hidden duration-200 ease-linear" data-carousel-item>
-            <img src="https://i.blogs.es/e1feab/google-fotos/1366_2000.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
+    <div>
+      <div>
+        <div className="mx-20">
+          <div className="flex items-center justify-center w-1/2 h-full ">
+            <button
+              className="bg-gray-500 mx-2"
+              onClick={() => (slider.current.scrollLeft -= 200)}
+            >
+              <svg
+                class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800"
+                fillRule="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M15 19l-7-7 7-7"
+                ></path>
+              </svg>
+            </button>
+            <div
+              ref={slider}
+              class="snap-x overflow-scroll scroll-smooth h-full flex items-center justify-start"
+            >
+              {images.map((e, i) => (
+                <div
+                  key={i}
+                  className="snap-start flex flex-shrink-0 w-auto mx-4"
+                >
+                  <img
+                    src={`https://picsum.photos/id/${i}/300/300`}
+                    alt={`images${i}`}
+                    className="object-cover object-center w-400px h-400px"
+                  />
+                </div>
+              ))}
+            </div>
+            <button
+              className="bg-gray-500 mx-2"
+              onClick={() => (slider.current.scrollLeft += 200)}
+            >
+              <svg
+                class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800"
+                fillRule="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 5l7 7-7 7"
+                ></path>
+              </svg>
+            </button>
+          </div>
         </div>
-       
-        <div class="hidden duration-200 ease-linear" data-carousel-item>
-            <img src="https://i.blogs.es/e1feab/google-fotos/1366_2000.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
-        </div>
-        
-        <div class="hidden duration-200 ease-linear" data-carousel-item="active">
-            <img src="https://i.blogs.es/e1feab/google-fotos/1366_2000.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
-        </div>
-        
-        <div class="hidden duration-200 ease-linear" data-carousel-item>
-            <img src="https://i.blogs.es/e1feab/google-fotos/1366_2000.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
-        </div>
-       
-        <div class="hidden duration-200 ease-linear" data-carousel-item>
-            <img src="https://i.blogs.es/e1feab/google-fotos/1366_2000.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
-        </div>
+      </div>
+
+      <div>
+        <h1>hola</h1>
+      </div>
     </div>
-   
-    <button type="button" class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
-        <span class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-            <svg aria-hidden="true" class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
-            <span class="sr-only">Previous</span>
-        </span>
-    </button>
-    <button type="button" class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
-        <span class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-            <svg aria-hidden="true" class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
-            <span class="sr-only">Next</span>
-        </span>
-    </button>
-</div>
   );
 }
