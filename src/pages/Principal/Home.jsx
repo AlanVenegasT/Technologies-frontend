@@ -4,6 +4,7 @@ import  Video  from "../../components/Video";
 import Vtext from "../../components/Vtext";
 import Faqs from "../../components/Faqs";
 import Carru3dL from "../../components/Carru3dL";
+import Text from "../../components/Text";
 
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
       <Video/> 
       <Vtext/> 
       <Carru3dL/>
+      <Text/>
       
       <Faqs/>
       
