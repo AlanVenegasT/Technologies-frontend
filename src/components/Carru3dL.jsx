@@ -20,7 +20,7 @@ export default function Carru3dL() {
       <div className="h-32  sm:h-72 lg:absolute lg:left-0 lg:h-full lg:w-7/8 lg:pt-20 lg:pb-52">
         {" "}
         {/*1 */}
-        <div className="pl-16 ">
+        <div className="">
          
         <h2 className="text-3xl text-[#ED94FF] font-medium lg:ml-44 lg:mb-10  ">¡Certificate!</h2>
      
@@ -31,9 +31,9 @@ export default function Carru3dL() {
               onClick={() => (slider.current.scrollLeft -= 200)}
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 d="M15 19l-7-7 7-7"
               ></path>
             </button>
@@ -59,9 +59,9 @@ export default function Carru3dL() {
               onClick={() => (slider.current.scrollLeft += 200)}
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 d="M9 5l7 7-7 7"
               ></path>
             </button>
@@ -142,7 +142,7 @@ export default function Carru3dL() {
         </div>
         
       </div>
-      <h3 className="lg:ml-16 inline-flex w-full items-center justify-center border-b-2 border-[#2E2F36] bg-[#1F2023] px-96  py-3 text-lg font-medium text-[#1F2023] hover:bg-[#1F2023] sm:w-auto">
+      <h3 className="lg:ml-16 inline-flex w-full items-center justify-center border-b-2 border-[#2E2F36] bg-[#1F2023] px-96  pb-32 text-lg font-medium text-[#1F2023] hover:bg-[#1F2023] sm:w-auto">
           Accede a nuestra Charla informativa y conoce 
         </h3>
     </div>
