@@ -35,7 +35,7 @@ export default function Video() {
             <div className=" h-1/2 flex flex-row lg:ml-8 lg:mr-8 lg:mt-10">
               <div className=" basis-1/3 bg-[#202226]"> {/*carrusel 1 */}
 
-              <div className="slider lg:ml-6 ">
+              <div className=" slider lg:ml-6 ">
         <div className=" slide-track">
           <div className="slide">
             <img src="Logo IKTANTec.png" alt="alan" />
@@ -132,7 +132,7 @@ export default function Video() {
         </div>
       </div>
               </div>
-              <div className="basis-1/3 bg-[#202226]"> {/*carrusel 3 */}
+              <div className=" basis-1/3 bg-[#202226]"> {/*carrusel 3 */}
               <div className="slider">
         <div className="slide-track">
           <div className="slide">

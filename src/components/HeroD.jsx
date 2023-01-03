@@ -3,7 +3,7 @@ import "./Carrusel/HeroD.css";
 
 export default function HeroD() {
   return (
-    <div className="bg-[#1F2023]">
+    <div className="bg-[#1F2023] pt-16">
       <div className="mx-auto max-w-5xl py-16 px-4 text-center sm:py-16 sm:px-6 lg:px-4 ">
         <div className="">
           <h3 className=" inline-flex w-full items-center justify-center rounded-md   shadow-yellow-500 shadow-lg   bg-[#1F2023] px-8 py-4 text-base font-medium text-[#DDDEDE] hover:bg-[#1F2023] sm:w-auto">

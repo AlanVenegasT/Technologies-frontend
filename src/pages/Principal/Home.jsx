@@ -3,10 +3,11 @@ import  HeroD  from "../../components/HeroD";
 import  Video  from "../../components/Video";
 import Vtext from "../../components/Vtext";
 import Faqs from "../../components/Faqs";
-import Carru3dL from "../../components/Carru3dL";
+
 import Text from "../../components/Text";
 import Testimoniales from "../../components/Testimoniales";
 import Linea from "../../components/Linea";
+import Pricing from "../../components/Pricing";
 
 
 const Home = () => {
@@ -15,9 +16,10 @@ const Home = () => {
       <HeroD/>
       <Video/> 
       <Vtext/> 
-      <Carru3dL/>
+      
       <Linea/>
       <Text/>
+      <Pricing/>  
       <Testimoniales/>
       
       <Faqs/>
