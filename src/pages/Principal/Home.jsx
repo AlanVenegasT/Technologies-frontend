@@ -5,6 +5,8 @@ import Vtext from "../../components/Vtext";
 import Faqs from "../../components/Faqs";
 import Carru3dL from "../../components/Carru3dL";
 import Text from "../../components/Text";
+import Testimoniales from "../../components/Testimoniales";
+import Linea from "../../components/Linea";
 
 
 const Home = () => {
@@ -14,7 +16,9 @@ const Home = () => {
       <Video/> 
       <Vtext/> 
       <Carru3dL/>
+      <Linea/>
       <Text/>
+      <Testimoniales/>
       
       <Faqs/>
       

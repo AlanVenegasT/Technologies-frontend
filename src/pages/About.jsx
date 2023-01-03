@@ -46,7 +46,10 @@ const About = () => {
                 alt="mision"
               />
               </div>
-              <div className="col-span-1 bg-[#27282D]">Vision</div>
+              <div className="col-span-1 bg-[#27282D] p-4 ">
+                <h2 className="text-[#FEFEFE] text-6xl font-bold mt-20 ml-6">Visión</h2>
+                <p className="text-[#B8B8B8] text-xl mt-7 ml-6"> Ser la principal plataforma de educación digital de Latinoamérica.</p>
+              </div>
             </div>
           </div>
         </div>
