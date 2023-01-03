@@ -15,7 +15,7 @@ const Header = () => {
     </button>
   </div>
   <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
-    <ul class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-[#1F2023] md:flex-row md:space-x-16 lg:mr-32 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-[#1F2023] dark:bg-[#1F2023] md:dark:bg-[#1F2023] dark:border-gray-700">
+    <ul class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-[#27282D] md:flex-row md:space-x-16 lg:mr-32 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-[#27282D] dark:bg-[#27282D] md:dark:bg-[#27282D] dark:border-[#]27282D">
       <li>
         <a href="#" class="text-[17px]  block py-2 pl-3 pr-4 text-[#FCFCFC] rounded hover:bg-[#FCFCFC] md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-[#FCFCFC] dark:text-[#FCFCFC] dark:hover:bg-[#FCFCFC] dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Home</a>
       </li>

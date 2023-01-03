@@ -1,6 +1,6 @@
 .slider {
-    width: 25vh;
-    height: 72vh;
+    width: 20vh; /*20vh*/
+    height: 65vh;
     margin: auto;
     overflow: hidden;
 }
@@ -20,7 +20,7 @@
 }
 
 .slider .slide img {
-    width: 85%;
+    width: 75%;
     height: 50%;
 }
 
