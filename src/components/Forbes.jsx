@@ -32,9 +32,9 @@ function classNames(...classes) {
 
 const Forbes = () => {
   return (
-    <div className="bg-[#1F2023] lg:pt-32">
-        <p className='text-center text-white text-xl lg:pb-16'>Nuestras apariciones en los medios</p>
-    <div className="mx-auto max-w-2xl py-16 px-4 sm:py-24 sm:px-6 lg:grid lg:max-w-6xl lg:grid-cols-12 lg:gap-x-8 lg:py-16 lg:px-8 bg-[#1F2023] border-[#2E2F36] border-2 rounded-md">
+    <div className="bg-[#1F2023] lg:pt-32 md:pt-20">
+        <p className='text-center text-white md:text-lg md:pb-10 lg:text-xl lg:pb-16'>Nuestras apariciones en los medios</p>
+    <div className="mx-auto max-w-2xl py-16 px-4 sm:py-24 sm:px-6  lg:grid lg:max-w-6xl lg:grid-cols-12 lg:gap-x-8 lg:py-16 lg:px-8 bg-[#1F2023] border-[#2E2F36] border-2 rounded-md">
       <div className="lg:col-span-4">
         <h2 className="text-7xl font-bold tracking-tight text-white text-center">Forbes</h2>
       </div>

@@ -4,7 +4,7 @@ const SchemaCard = ({object}) => {
   return (
     <>
         {object.map((tier) => (
-            <div key={tier.name} className="divide-y bg-[#2B2C32] divide-[#1F2023] rounded-lg  shadow-sm">
+            <div key={tier.name} className="divide-y overflow-hidden bg-[#2B2C32] divide-[#1F2023] rounded-lg  shadow-sm">
                 <p className='text-black font-normal lg:py-2 text-xs  text-center bg-gradient-to-r from-[#E990FF] via-[#B79FFD] to-[#83ACFA] rounded-t-md'>Aprobecha la coder beca del 70%</p>
               <div className="p-6">
                 <h2 className="text-4xl font-medium leading-6 text-white lg:pt-10 lg:px-5 ">{tier.name}</h2>

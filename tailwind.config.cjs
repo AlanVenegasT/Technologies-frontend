@@ -2,6 +2,9 @@
 module.exports = {
   content: [ "index.html", "./src/**/*.jsx"],
   theme: {
+    fontFamily:{
+      unSans: ["Untitled Sans"]
+    },
     transitionProperty: ['responsive', 'hover', 'focus', 'duration-500', 'ease-linear'],
     extend: {},
   },

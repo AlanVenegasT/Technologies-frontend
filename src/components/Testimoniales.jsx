@@ -77,11 +77,11 @@ function classNames(...classes) {
 export default function Testimoniales() {
   return (
     <>
-      <h2 className="text-6xl lg:px-40 lg:pb-12 lg:pt-28 bg-[#1F2023] text-white font-semibold">
+      <h2 className="lg:text-6xl lg:px-40 lg:pb-12 lg:pt-28 md:text-4xl md:px-6 md:pb-12 md:pt-20 bg-[#1F2023] text-white font-semibold">
         Más de 180,000 estudiantes nos recomiendan en todo Latinoamérica
       </h2>
       <div className="bg-[#1F2023]    ">
-        <div className="divide-y divide-gray-200 overflow-hidden rounded-lg bg-[#1F2023] shadow sm:grid sm:grid-cols-2 sm:gap-px sm:divide-y-0 mx-auto max-w-6xl">
+        <div className="divide-y divide-gray-200 overflow-hidden rounded-lg bg-[#1F2023] shadow sm:grid sm:grid-cols-2 sm:gap-px sm:divide-y-0 mx-auto md:max-w-3xl lg:max-w-6xl">
           {actions.map((action, actionIdx) => (
             <div
               key={action.title}
@@ -92,15 +92,15 @@ export default function Testimoniales() {
                 actionIdx === actions.length - 1
                   ? "rounded-lg  sm:rounded-lg"
                   : "",
-                "relative group lg:my-3 lg:mx-3 bg-[#2B2C32] p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500"
+                "relative group md:my-3 md:mx-3 lg:my-3 lg:mx-3 bg-[#2B2C32] p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500"
               )}
             >
               <div></div>
               <div className="mt-8 ">
-                <h3 className="text-base font-medium lg:pl-12">
+                <h3 className="lg:text-base md:text-sm  font-medium lg:pl-12 md:pl-2">
                   <a
                     href={action.href}
-                    className="focus:outline-none text-[#ACACAD]"
+                    className="focus:outline-none  text-[#ACACAD]"
                   >
                     {/* Extend touch target to entire panel */}
                     <span className="absolute inset-0 " aria-hidden="true" />
@@ -127,10 +127,10 @@ export default function Testimoniales() {
                             className="absolute inset-0"
                             aria-hidden="true"
                           />
-                          <p className="text-lg font-medium text-[#FAFAFA]">
+                          <p className="lg:text-lg md:text-base font-medium text-[#FAFAFA]">
                             {person.name}
                           </p>
-                          <p className="truncate text-sm text-[#A2A2A3]">
+                          <p className="truncate lg:text-sm md:text-xs  text-[#A2A2A3]">
                             {person.role}
                           </p>
                         

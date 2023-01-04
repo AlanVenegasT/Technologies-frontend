@@ -54,10 +54,10 @@ export default function Pricing  ()  {
     }
 
   return (
-    <div className='bg-[#1F2023] lg:pt-32'> 
+    <div className='bg-[#1F2023] lg:pt-32 '> 
     <div className='mx-auto max-w-6xl  '>
-        <h2 className='text-5xl font-bold text-white '>Elige tu curso o carrera</h2>
-        <h3 className='text-3xl font-normal text-white lg:my-10 '>CARRERAS</h3>
+        <h2 className='lg:text-5xl md:text-3xl  font-bold text-white '>Elige tu curso o carrera</h2>
+        <h3 className='lg:text-3xl md:text-3xl font-normal text-white lg:my-10 md:my-5 '>CARRERAS</h3>
         <div className="sm:hidden">
         <label htmlFor="tabs" className="sr-only">
           Select a tab
@@ -75,9 +75,9 @@ export default function Pricing  ()  {
           ))}
         </select>
       </div>
-      <div className="hidden sm:block">
-        <div className="border-b border-[#BEBEBE]">
-          <nav className="-mb-px flex space-x-8" aria-label="Tabs">
+      <div className="hidden sm:block md:px-5">
+        <div className="border-b border-[#BEBEBE] ">
+          <nav className="-mb-px flex space-x-8 " aria-label="Tabs">
             {tabs[0] && tabs.map((tab) => (
               <a
                 key={tab.name}
