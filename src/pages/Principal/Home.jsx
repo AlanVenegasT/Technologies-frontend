@@ -8,6 +8,7 @@ import Text from "../../components/Text";
 import Testimoniales from "../../components/Testimoniales";
 import Linea from "../../components/Linea";
 import Pricing from "../../components/Pricing";
+import Forbes from "../../components/Forbes";
 
 
 const Home = () => {
@@ -16,11 +17,11 @@ const Home = () => {
       <HeroD/>
       <Video/> 
       <Vtext/> 
-      
       <Linea/>
       <Text/>
       <Pricing/>  
       <Testimoniales/>
+      <Forbes/>
       
       <Faqs/>
       

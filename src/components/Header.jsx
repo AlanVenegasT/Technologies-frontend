@@ -15,18 +15,18 @@ const Header = () => {
     </button>
   </div>
   <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
-    <ul class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gradient-to-r from-[#E990FF] via-[#B29DF9] to-[#83AEFB] md:flex-row md:space-x-16  md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-[#1F2023] dark:bg-[#1F2023] md:dark:bg-[#1F2023] dark:border-[#1F2023]">
+    <ul class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gradient-to-r from-[#C499FB] via-[#B19DF9] to-[#A2A2F9] md:flex-row md:space-x-16  md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-[#1F2023] dark:bg-[#1F2023] md:dark:bg-[#1F2023] dark:border-[#1F2023]">
       <li>
-        <a href="#" class="text-[17px] font-bold block py-2 pl-3 pr-4 text-[#FCFCFC] rounded hover:bg-[#FCFCFC] md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-[#FCFCFC] dark:text-[#1F2023] dark:hover:bg-[#FCFCFC] dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Home</a>
+        <a href="#" class="text-[17px] font-bold block py-2 pl-3 pr-4 text-[#1F2023] rounded hover:bg-[#FCFCFC] md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-[#1F2023] dark:text-[#1F2023] dark:hover:bg-[#FCFCFC] dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Home</a>
       </li>
       <li>
-        <a href="#" class="text-[17px] font-bold block py-2 pl-3 pr-4 text-[#FCFCFC] rounded hover:bg-[#FCFCFC] md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-[#FCFCFC] dark:text-[#1F2023] dark:hover:bg-[#FCFCFC] dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Servicios</a>
+        <a href="#" class="text-[17px] font-bold block py-2 pl-3 pr-4 text-[#1F2023] rounded hover:bg-[#FCFCFC] md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-[#FCFCFC] dark:text-[#1F2023] dark:hover:bg-[#FCFCFC] dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Servicios</a>
       </li>
       <li>
-        <a href="#" class="text-[17px] font-bold block py-2 pl-3 pr-4 text-[#FCFCFC] rounded hover:bg-[#FCFCFC] md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-[#FCFCFC] dark:text-[#1F2023] dark:hover:bg-[#FCFCFC] dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Quienes somos</a>
+        <a href="#" class="text-[17px] font-bold block py-2 pl-3 pr-4 text-[#1F2023] rounded hover:bg-[#FCFCFC] md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-[#FCFCFC] dark:text-[#1F2023] dark:hover:bg-[#FCFCFC] dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Quienes somos</a>
       </li>
       <li>
-        <a href="#" class="text-[17px] font-bold  block py-2 pl-3 pr-4 text-[#FCFCFC] rounded hover:bg-[#FCFCFC] md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-[#FCFCFC] dark:text-[#1F2023] dark:hover:bg-[#FCFCFC] dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contacto</a>
+        <a href="#" class="text-[17px] font-bold  block py-2 pl-3 pr-4 text-[#1F2023] rounded hover:bg-[#FCFCFC] md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-[#FCFCFC] dark:text-[#1F2023] dark:hover:bg-[#FCFCFC] dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contacto</a>
       </li>
     </ul>
   </div>

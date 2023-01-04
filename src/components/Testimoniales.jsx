@@ -77,7 +77,7 @@ function classNames(...classes) {
 export default function Testimoniales() {
   return (
     <>
-      <h2 className="text-6xl lg:px-40 lg:py-12 bg-[#1F2023] text-white font-semibold">
+      <h2 className="text-6xl lg:px-40 lg:pb-12 lg:pt-28 bg-[#1F2023] text-white font-semibold">
         Más de 180,000 estudiantes nos recomiendan en todo Latinoamérica
       </h2>
       <div className="bg-[#1F2023]    ">

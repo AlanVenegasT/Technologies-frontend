@@ -54,7 +54,7 @@ export default function Pricing  ()  {
     }
 
   return (
-    <div className='bg-[#1F2023]'> 
+    <div className='bg-[#1F2023] lg:pt-32'> 
     <div className='mx-auto max-w-6xl  '>
         <h2 className='text-5xl font-bold text-white '>Elige tu curso o carrera</h2>
         <h3 className='text-3xl font-normal text-white lg:my-10 '>CARRERAS</h3>
