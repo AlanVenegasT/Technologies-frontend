@@ -6,20 +6,20 @@ export default function HeroD() {
     <div className="bg-[#1F2023] pt-10">
       <div className="mx-auto max-w-5xl py-16 px-4 text-center sm:py-16 sm:px-6 lg:px-4 ">
         <div className="">
-          <h3 className=" inline-flex w-full items-center justify-center rounded-md shadow-yellow-500 shadow-lg   bg-[#1F2023] lg:px-8 lg:py-4 md:px-8 md:py-3 md:mt-10 lg:text-base md:text-xs font-medium text-[#DDDEDE] hover:bg-[#1F2023] sm:w-auto ">
-            Accede a nuestra Charla informativa y conoce todo sobre Coderhouse <span className=" lg:ml-5 lg:pl-5 md:ml-5 md:pl-5 border-l-2 border-[#2E2F36]"  > Ver ahora</span>
+          <h3 className=" inline-flex w-full items-center justify-center rounded-md shadow-yellow-500 shadow-lg   bg-[#1F2023] text-[10px] px-8 py-3 mt-5 md:text-xs md:px-8 md:py-3 md:mt-10 lg:px-8 lg:py-4 lg:text-base font-medium text-[#DDDEDE] hover:bg-[#1F2023] sm:w-auto ">
+            Accede a nuestra Charla informativa y conoce todo sobre Coderhouse <span className=" lg:ml-5 lg:pl-5 md:ml-5 md:pl-5 ml-2 pl-2 border-l-2 border-[#2E2F36]"  > Ver ahora</span>
           </h3>
         </div>
-        <h2 className="lg:text-6xl md:text-4xl  font-bold  tracking-tight text-white sm:text-3xl  lg:mt-14 md:mt-7 ">
-          <span className="block lg:mt-3 md:mt-1 ">Únete a la comunidad de</span>
-          <span className="block lg:mt-3 md:mt-1">
+        <h2 className="lg:text-6xl md:text-4xl  font-bold  tracking-tight text-white text-2xl mt-5  lg:mt-14 md:mt-7 ">
+          <span className="block lg:mt-3 md:mt-1 mt-1 ">Únete a la comunidad de</span>
+          <span className="block lg:mt-3 md:mt-1 mt-1">
             aprendizaje en línea y en vivo más
           </span>
-          <span className="block lg:mt-3 md:mt-1">
+          <span className="block lg:mt-3 md:mt-1 mt-1">
             grande de México y Latinoamérica
           </span>
         </h2>
-        <p className="mt-4 lg:text-2xl md:text-base  leading-8 text-indigo-200 lg:mt-12 lg:mr-10 lg:ml-10 md:mt-8 md:mr-20 md:ml-20 ">
+        <p className="   leading-5  text-indigo-200 text-xs mt-4 mr-20 ml-20 md:leading-8 md:text-base md:mt-8 md:mr-20 md:ml-20 lg:text-2xl lg:leading-8 lg:mt-12 lg:mr-10 lg:ml-10 ">
           A Clases en línea y en vivo dictadas por referentes de la industria,
           enfoque 100% práctico, mentorías personalizadas y acceso a una
           comunidad de +180,000 estudiantes.

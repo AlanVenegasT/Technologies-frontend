@@ -11,7 +11,7 @@ const Header = () => {
             alt="IKTAN Logo"
           />
         </a>
-        <div class="flex md:order-2">
+        <div class="flex order-2 md:order-2">
           <button
             type="button"
             class="text-[#1F2023]  md:text-[14px] focus:ring-4 focus:outline-none  font-bold rounded-lg lg:text-lg  px-5 py-2.5 text-center mr-3 md:mr-0 lg:mr-8 "

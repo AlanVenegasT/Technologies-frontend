@@ -5,6 +5,7 @@ import Login from "./pages/Login";
 import Home from "./pages/Principal/Home";
 import Registrar from "./Registrar";
 import About from "./pages/About";
+import FormularioC from "./pages/FormularioC";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route element={<IndexLayout />}>
           <Route path="/" element={<Home />} />
           <Route path="about" element={<About />} />
+          <Route path="formularioC" element={<FormularioC />} />
         </Route>
       </Routes>
     </BrowserRouter>

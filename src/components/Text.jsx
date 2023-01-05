@@ -16,7 +16,7 @@ export default function Text() {
                   CoderBeca?
                 </span>
               </h2>
-              <p className="mt-4 text-xl md:text-sm leading-8 text-[#504160]">
+              <p className="mt-4 text-xs md:text-sm lg:text-xl leading-8 text-[#504160]">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Expedita repellat ratione minima iure maiores fuga sit quam
                 similique iusto et, earum adipisci
@@ -24,7 +24,7 @@ export default function Text() {
             </div>
           </div>
           <div className="absolute ">
-            <div className="w-[270px] h-[400px] bg-[#1F2023] border-[#E990FF] border-2 translate-x-6 translate-y-6 transform rounded-md object-cover object-left-top sm:translate-x-16 lg:translate-y-14 lg:translate-x-[700px] md:translate-y-14 md:translate-x-[370px]  shadow-[#1F2023] shadow-xl ">
+            <div className="md:w-[270px] md:h-[400px] lg:w-[430px] lg:h-[500px] bg-[#1F2023] border-[#E990FF] border-2 translate-x-6 translate-y-6 transform rounded-md object-cover object-left-top sm:translate-x-16 lg:translate-y-14 lg:translate-x-[700px] md:translate-y-14 md:translate-x-[370px]  shadow-[#1F2023] shadow-xl ">
             <h3 className="text-white  text-center lg:text-5xl lg:pt-10 lg:pb-8 md:text-3xl md:pt-5 md:pb-4 font-semibold ">¿Cómo accedo?</h3>
             <h4 className="text-[#9B9B9C] lg:pb-5 lg:pl-10 lg:pr-10 lg:text-lg md:pb-2 md:pl-10 md:pr-6 md:text-sm ">El acceso a la CoderBeca es <b>automático y para todos</b>, solo debes cumplir con 2 requisitos una vez dentro del curso:</h4>
             <ul className="list-disc list-outside text-[#9B9B9C] lg:pb-12 lg:pl-16 lg:pr-10 lg:text-lg md:pb-12 md:pl-16 md:pr-10 md:text-sm leading-8">
