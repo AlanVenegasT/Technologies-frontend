@@ -80,25 +80,6 @@ export default function Formu() {
                     </div>
                   </div>
 
-                  <div className="space-y-1">
-                    <label
-                      htmlFor="phone"
-                      className="block text-sm font-light text-white"
-                    >
-                      Teléfono
-                    </label>
-                    <div className="mt-1">
-                      <input
-                        id="phone"
-                        name="phone"
-                        type="number"
-                        autoComplete="tel"
-                        required
-                        className="block w-full appearance-none rounded-md border border-[#2E2F36] px-3 py-2 placeholder-gray-400 shadow-sm bg-[#2E2F36] focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
-                      />
-                    </div>
-                  </div>
-
                   <div>
                     <label
                       htmlFor="comment"
@@ -161,7 +142,7 @@ export default function Formu() {
           
           <div className="absolute inset-0  bg-center bg-cover bg-[url('https://www.sccenlared.es/wp-content/uploads/2021/09/por-que-interesa-optar-por-los-servicios-gestionados-y-la-internalizacion-de-ti.jpg')] ">
            <div className="w-full h-full  bg-gradient-to-r from-[#1F2023] ">
-              <h1>hola</h1>
+              
            </div>
           </div>
         </div>

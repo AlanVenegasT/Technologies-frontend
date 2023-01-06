@@ -6,7 +6,9 @@ module.exports = {
       unSans: ["Untitled Sans"]
     },
     transitionProperty: ['responsive', 'hover', 'focus', 'duration-500', 'ease-linear'],
-    extend: {},
+    extend: {
+      
+    },
   },
   plugins: [
     require('@tailwindcss/forms'),

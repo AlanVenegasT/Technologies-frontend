@@ -1,4 +1,11 @@
 import React from "react";
+import Timeline from "../components/Timeline";
+import Valores from "../components/Valores";
+import Linea from "../components/Linea";
+import Somtext from "../components/Somtext";
+import Somunete from "../components/Somunete";
+import Miembros from "../components/Miembros";
+
 
 const About = () => {
   const people = [
@@ -54,6 +61,13 @@ const About = () => {
           </div>
         </div>
       </div>
+
+      <Valores/>    
+      <Timeline/>
+      <Linea/>  
+      <Somtext/>
+      <Somunete/>  
+      <Miembros/>
     </>
   );
 };

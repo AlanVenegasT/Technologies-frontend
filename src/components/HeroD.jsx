@@ -40,52 +40,52 @@ export default function HeroD() {
       </div>
       <div className="carrusel">
         <div className="carru-video">
-          <div className="carru">
-            <img src="Logo IKTANTec.png" alt="alan" />
+          <div className="carru ">
+            <img src="LogoAmbientalB.png" className="hover:bg-[url('LogoAmbientalC.png')]   " alt="alan" />
           </div>
           <div className="carru">
-            <img src="Logo IKTANTec.png" alt="alan2" />
+            <img src="LogoAmbientalB.png" alt="alan2" />
           </div>
           <div className="carru">
-            <img src="Logo IKTANTec.png" alt="alan3" />
+            <img src="LogoAmbientalB.png" alt="alan3" />
           </div>
           <div className="carru">
-            <img src="Logo IKTANTec.png" alt="alan4" />
+            <img src="LogoAmbientalB.png" alt="alan4" />
           </div>
           <div className="carru">
-            <img src="Logo IKTANTec.png" alt="alan5" />
+            <img src="LogoAmbientalB.png" alt="alan5" />
           </div>
           <div className="carru">
-            <img src="Logo IKTANTec.png" alt="alan6" />
+            <img src="LogoAmbientalB.png" alt="alan6" />
           </div>
           <div className="carru">
-            <img src="Logo IKTANTec.png" alt="alan7" />
+            <img src="LogoAmbientalB.png" alt="alan7" />
           </div>
 
           <div className="carru">
-            <img src="Logo IKTANTec.png" alt="alan8" />
+            <img src="LogoAmbientalB.png" alt="alan8" />
           </div>
           <div className="carru">
-            <img src="Logo IKTANTec.png" alt="alan9" />
+            <img src="LogoAmbientalB.png" alt="alan9" />
           </div>
           <div className="carru">
-            <img src="Logo IKTANTec.png" alt="alan10" />
+            <img src="LogoAmbientalB.png" alt="alan10" />
           </div>
           <div className="carru">
-            <img src="Logo IKTANTec.png" alt="alan11" />
+            <img src="LogoAmbientalB.png" alt="alan11" />
           </div>
           <div className="carru">
-            <img src="Logo IKTANTec.png" alt="alan12" />
+            <img src="LogoAmbientalB.png" alt="alan12" />
           </div>
           <div className="carru">
-            <img src="Logo IKTANTec.png" alt="alan13" />
+            <img src="LogoAmbientalB.png" alt="alan13" />
           </div>
           <div className="carru">
-            <img src="Logo IKTANTec.png" alt="alan14" />
+            <img src="LogoAmbientalB.png" alt="alan14" />
           </div>
         </div>
       </div>
-      <div className="   text-center sm:py-16 sm:px-6 md:px-0 md:py-8 lg:px-4 lg:py-16">
+      <div className="   text-center sm:py-16 sm:px-6 md:px-0 md:py-8 lg:px-4 lg:py-10">
         <h3 className="lg:ml-16 inline-flex w-full items-center justify-center border-b-2 border-[#2E2F36] bg-[#1F2023] lg:px-96  lg:py-3 md:px-40  md:my-12  lg:text-lg md:text-base font-medium text-[#EAFF6A] hover:bg-[#1F2023] sm:w-auto">
           Accede a nuestra Charla informativa y conoce 
         </h3>

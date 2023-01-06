@@ -14,7 +14,7 @@ const Header = () => {
         <div class="flex order-2 md:order-2">
           <button
             type="button"
-            class="text-[#1F2023]  md:text-[14px] focus:ring-4 focus:outline-none  font-bold rounded-lg lg:text-lg  px-5 py-2.5 text-center mr-3 md:mr-0 lg:mr-8 "
+            class="text-[#1F2023]  md:text-[14px] focus:ring-4 focus:outline-none  font-bold rounded-lg lg:text-lg  px-5 py-2.5 text-center mr-3 md:mr-0 lg:mr-8 md:dark:hover:text-[#FCFCFC]"
           >
             Iniciar Sesion
           </button>
@@ -48,8 +48,8 @@ const Header = () => {
           <ul class="flex flex-col p-4 mt-4  rounded-lg bg-gradient-to-r from-[#CB97FC] via-[#AF9EF9] to-[#97A6FA] md:flex-row md:space-x-10  md:mt-0 md:text-sm md:font-medium md:border-0 ">
             <li>
               <a
-                href="#"
-                class="lg:text-[17px] md:text-[14px] font-bold block py-2 pl-3 pr-4 text-[#1F2023] rounded hover:bg-[#FCFCFC] md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-[#1F2023] dark:text-[#1F2023] dark:hover:bg-[#FCFCFC] dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                href="/"
+                class="lg:text-[17px] md:text-[14px] font-bold block py-2 pl-3 pr-4 text-[#1F2023] rounded hover:bg-[#FCFCFC] md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-[#FCFCFC] dark:text-[#1F2023] dark:hover:bg-[#FCFCFC] dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
               >
                 Home
               </a>
