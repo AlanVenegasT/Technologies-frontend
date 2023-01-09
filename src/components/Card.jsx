@@ -192,7 +192,7 @@ const Card = ({pricing}) => {
         {pricing.name === "My Account" ?  
         <> 
             <div className="bg-[#1F2023] ">
-                <div className="mx-auto max-w-7xl  px-4 sm:px-6 lg:px-8">
+                <div className="mx-auto max-w-7xl   px-4 sm:px-6 lg:px-8">
                     <div className="mt-12 space-y-4 sm:mt-16 sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0 lg:mx-auto lg:max-w-4xl xl:mx-0 xl:max-w-none xl:grid-cols-3 ">
                     <SchemaCard object={tiers}/>
                     </div>

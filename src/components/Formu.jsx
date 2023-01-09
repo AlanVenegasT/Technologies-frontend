@@ -127,7 +127,7 @@ export default function Formu() {
                   <div>
                     <button
                       type="submit"
-                      className="flex w-full justify-center rounded-md border border-transparent bg-[#BACB5A] py-3 px-4 text-base font-light text-black shadow-sm hover:bg-[#EAFF6A]  focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                      className="flex w-full justify-center rounded-md border border-transparent duration-700 hover:scale-105 bg-[#BACB5A] py-3 px-4 text-base font-light text-black shadow-sm hover:bg-[#EAFF6A]  focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
                     >
                       Enviar
                     </button>

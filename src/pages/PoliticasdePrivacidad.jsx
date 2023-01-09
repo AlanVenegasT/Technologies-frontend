@@ -79,7 +79,7 @@ const PoliticasdePrivacidad = () => {
             </span>
           </h1>
         </div>
-        <div className="prose prose-lg prose-indigo ml-28 mr-28 mt-6 text-white  text-justify">
+        <div className="prose prose-lg prose-indigo lg:ml-28 lg:mr-28 md:ml-28 md:mr-28   ml-16 mr-16 mt-6 text-white  text-justify">
           <h2 className='mb-5 font-bold text-[#EAFF6A]'>
           AVISO DE PRIVACIDAD INTEGRAL (IKTAN Technologies)
           </h2>

@@ -16,18 +16,18 @@ const people = [
 
 const Miembros = () => {
   return (
-    <div className="bg-[#1F2023] pb-10">
+    <div className="bg-[#1F2023] pb-10 ">
       <h2 className="text-4xl font-medium py-20  px-16 text-white">
         Nuestros Miembros
       </h2>
       <ul
         role="list"
-        className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 px-5 "
+        className="grid grid-cols-1  gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 px-5 "
       >
         {people.map((person) => (
           <li
             key={person.email}
-            className="col-span-1 flex flex-col   rounded-lg bg-[#2B2C32] border-2 border-[#3B3D44] text-center shadow"
+            className="col-span-1 flex flex-col duration-700 hover:scale-90   rounded-lg bg-[#2B2C32] border-2 border-[#3B3D44] text-center shadow"
           >
             <div className="flex flex-1 flex-col p-8">
               <img
@@ -55,7 +55,7 @@ const Miembros = () => {
         {people.map((person) => (
           <li
             key={person.email}
-            className="col-span-1 flex flex-col   rounded-lg bg-[#2B2C32] border-2 border-[#3B3D44] text-center shadow"
+            className="col-span-1 flex flex-col  duration-700 hover:scale-90 rounded-lg bg-[#2B2C32] border-2 border-[#3B3D44] text-center shadow"
           >
             <div className="flex flex-1 flex-col p-8">
               <img
@@ -84,7 +84,7 @@ const Miembros = () => {
 {people.map((person) => (
           <li
             key={person.email}
-            className="col-span-1 flex flex-col   rounded-lg bg-[#2B2C32] border-2 border-[#3B3D44] text-center shadow"
+            className="col-span-1 flex flex-col  duration-700 hover:scale-90 rounded-lg bg-[#2B2C32] border-2 border-[#3B3D44] text-center shadow"
           >
             <div className="flex flex-1 flex-col p-8">
               <img
@@ -113,7 +113,7 @@ const Miembros = () => {
 {people.map((person) => (
           <li
             key={person.email}
-            className="col-span-1 flex flex-col   rounded-lg bg-[#2B2C32] border-2 border-[#3B3D44] text-center shadow"
+            className="col-span-1 flex flex-col duration-700 hover:scale-90  rounded-lg bg-[#2B2C32] border-2 border-[#3B3D44] text-center shadow"
           >
             <div className="flex flex-1 flex-col p-8">
               <img
@@ -142,7 +142,7 @@ const Miembros = () => {
 {people.map((person) => (
           <li
             key={person.email}
-            className="col-span-1 flex flex-col   rounded-lg bg-[#2B2C32] border-2 border-[#3B3D44] text-center shadow"
+            className="col-span-1 flex flex-col duration-700 hover:scale-90   rounded-lg bg-[#2B2C32] border-2 border-[#3B3D44] text-center shadow"
           >
             <div className="flex flex-1 flex-col p-8">
               <img
@@ -171,7 +171,7 @@ const Miembros = () => {
 {people.map((person) => (
           <li
             key={person.email}
-            className="col-span-1 flex flex-col   rounded-lg bg-[#2B2C32] border-2 border-[#3B3D44] text-center shadow"
+            className="col-span-1 flex flex-col duration-700 hover:scale-90  rounded-lg bg-[#2B2C32] border-2 border-[#3B3D44] text-center shadow"
           >
             <div className="flex flex-1 flex-col p-8">
               <img
@@ -200,7 +200,7 @@ const Miembros = () => {
 {people.map((person) => (
           <li
             key={person.email}
-            className="col-span-1 flex flex-col   rounded-lg bg-[#2B2C32] border-2 border-[#3B3D44] text-center shadow"
+            className="col-span-1 flex flex-col duration-700 hover:scale-90  rounded-lg bg-[#2B2C32] border-2 border-[#3B3D44] text-center shadow"
           >
             <div className="flex flex-1 flex-col p-8">
               <img
@@ -229,7 +229,7 @@ const Miembros = () => {
 {people.map((person) => (
           <li
             key={person.email}
-            className="col-span-1 flex flex-col   rounded-lg bg-[#2B2C32] border-2 border-[#3B3D44] text-center shadow"
+            className="col-span-1 flex flex-col duration-700 hover:scale-90  rounded-lg bg-[#2B2C32] border-2 border-[#3B3D44] text-center shadow"
           >
             <div className="flex flex-1 flex-col p-8">
               <img

@@ -56,8 +56,8 @@ export default function Pricing  ()  {
   return (
     <div className='bg-[#1F2023] lg:pt-32 '> 
     <div className='mx-auto max-w-6xl  '>
-        <h2 className='lg:text-5xl md:text-3xl  font-bold text-white '>Elige tu curso o carrera</h2>
-        <h3 className='lg:text-3xl md:text-3xl font-normal text-white lg:my-10 md:my-5 '>CARRERAS</h3>
+        <h2 className='lg:text-5xl md:text-3xl text-2xl pl-4 font-bold text-white '>Elige tu curso o carrera</h2>
+        <h3 className='lg:text-3xl md:text-3xl  text-2xl pl-4 font-normal text-white lg:my-10 md:my-5 my-3 '>CARRERAS</h3>
         <div className="sm:hidden">
         <label htmlFor="tabs" className="sr-only">
           Select a tab
@@ -66,7 +66,7 @@ export default function Pricing  ()  {
         <select
           id="tabs"
           name="tabs"
-          className="block w-full rounded-md border-gray-300 py-2 pl-3 pr-10 text-base focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
+          className="block w-2/3  mx-5 rounded-md border-gray-300 py-2 pl-3 pr-10 text-base bg-[#2B2C32]  focus:border-white text-white focus:outline-none focus:ring-white sm:text-sm"
           defaultValue={tabs.find((tab) => tab.current)}
           
         >
@@ -75,18 +75,18 @@ export default function Pricing  ()  {
           ))}
         </select>
       </div>
-      <div className="hidden sm:block md:px-5">
+      <div className="hidden sm:block md:px-5 ">
         <div className="border-b border-[#BEBEBE] ">
-          <nav className="-mb-px flex space-x-8 " aria-label="Tabs">
+          <nav className="-mb-px flex space-x-8  " aria-label="Tabs">
             {tabs[0] && tabs.map((tab) => (
               <a
                 key={tab.name}
                 onClick = {e=>mostrarCard(e,tab)}
                 className={classNames(
                   tab.current
-                    ? 'border-white text-white border-b-[3px]'
-                    : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300',
-                  'whitespace-nowrap py-4 px-1 border-b-2 font-medium text-lg'
+                    ? 'border-white text-white border-b-[3px] '
+                    : 'border-transparent text-white  hover:text-white hover:border-gray-300',
+                  'whitespace-nowrap py-4 px-1  border-b-2 font-medium text-lg'
                 )}
                 aria-current={tab.current ? 'page' : undefined}
               >

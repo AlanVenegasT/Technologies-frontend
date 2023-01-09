@@ -36,6 +36,17 @@
         overflow: hidden;
     }
   }
+
+  @media (min-width: 1075px) {
+    .slidar {
+        width: 20vh;
+        height: 82vh;
+        margin: auto;
+        overflow: hidden;
+    }
+  }
+
+
 .slidar .slida-track {
     display: flex;
     flex-direction: column;
@@ -78,6 +89,14 @@
         height: 45%;
     }
   }
+
+  @media (min-width: 1075px) {
+    .slidar .slida img {
+        width: 60%;
+        height: 35%;
+    }
+  }
+
 
 @keyframes slida {
     100% {

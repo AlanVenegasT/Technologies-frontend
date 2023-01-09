@@ -38,6 +38,15 @@
     }
   }
 
+  @media (min-width: 1075px) {
+    .slider {
+        width: 20vh;
+        height: 82vh;
+        margin: auto;
+        overflow: hidden;
+    }
+  }
+
 .slider .slide-track {
     display: flex;
     flex-direction: column;
@@ -74,12 +83,14 @@
     }
       }
 
-@media (min-width: 1025px) {
+@media (min-width: 1075px) {
     .slider .slide img {
-        width: 70%;
-        height: 45%;
+        width: 60%;
+        height: 35%;
     }
   }
+
+ 
 
 
 

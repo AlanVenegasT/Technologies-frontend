@@ -23,7 +23,7 @@ const About = () => {
   return (
     <>
       <div className="bg-[#1F2023]">
-        <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:px-8 lg:py-36">
+        <div className="mx-auto max-w-7xl py-12 px-4 md:px-6 md lg:px-8 lg:py-36">
           <div className="space-y-20">
             <div className="space-y-5 sm:space-y-4 md:max-w-xl xl:max-w-none">
               <h2 className="text-6xl font-bold text-center text-white ">

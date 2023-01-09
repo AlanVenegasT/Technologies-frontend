@@ -7,6 +7,7 @@ import Registrar from "./Registrar";
 import About from "./pages/About";
 import FormularioC from "./pages/FormularioC";
 import PoliticasdePrivacidad from "./pages/PoliticasdePrivacidad";
+import Servicios from "./pages/Servicios";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="about" element={<About />} />
           <Route path="formularioC" element={<FormularioC />} />
           <Route path="politicasdeprivacidad" element={<PoliticasdePrivacidad />} />
+          <Route path="servicios" element={<Servicios />} />
         </Route>
       </Routes>
     </BrowserRouter>
