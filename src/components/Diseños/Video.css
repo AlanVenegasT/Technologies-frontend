@@ -1,9 +1,42 @@
+@media (max-width: 640px) {
+    .slider {
+        width: 10vh; /*20vh*/
+        height: 40vh;
+        margin: auto;
+        overflow: hidden;
+        
+    }
+  }
+
+
+  
+  @media (min-width: 641px) and (max-width: 768px) {
+    .slider {
+        width: 10vh; /*20vh*/
+        height: 40vh;
+        margin: auto;
+        overflow: hidden;
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 1024px) {
+    
 .slider {
-    width: 20vh; /*20vh*/
-    height: 65vh;
-    margin: auto;
-    overflow: hidden;
+        width: 10vh; /*20vh*/
+        height: 56vh;
+        margin: auto;
+        overflow: hidden;
 }
+  }
+  
+  @media (min-width: 1025px) {
+    .slider {
+        width: 20vh;
+        height: 62vh;
+        margin: auto;
+        overflow: hidden;
+    }
+  }
 
 .slider .slide-track {
     display: flex;
@@ -19,12 +52,48 @@
     height: 200px;
 }
 
-.slider .slide img {
-    width: 75%;
-    height: 50%;
-}
+@media (max-width: 640px) {
+    .slider .slide img {
+        width: 32%;
+        height: 20%;
+    }
+  }
 
-@media (max-width: 600px) {
+@media (min-width: 641px) and (max-width: 768px) {
+    .slider .slide img {
+        width: 32%;
+        height: 20%;
+    }
+  }
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    
+    .slider .slide img {
+        width: 30%;
+        height: 20%;
+    }
+      }
+
+@media (min-width: 1025px) {
+    .slider .slide img {
+        width: 70%;
+        height: 45%;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 640px) {
     .facet_sidebar {
       display: none;
     }

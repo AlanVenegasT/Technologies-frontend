@@ -6,6 +6,7 @@ import Home from "./pages/Principal/Home";
 import Registrar from "./Registrar";
 import About from "./pages/About";
 import FormularioC from "./pages/FormularioC";
+import PoliticasdePrivacidad from "./pages/PoliticasdePrivacidad";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="formularioC" element={<FormularioC />} />
+          <Route path="politicasdeprivacidad" element={<PoliticasdePrivacidad />} />
         </Route>
       </Routes>
     </BrowserRouter>

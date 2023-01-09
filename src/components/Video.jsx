@@ -32,8 +32,8 @@ export default function Video() {
             </h3>
           </div>
           <div className=" row-start-1 row-end-6 bg-[#27282D] rounded-md lg:mr-8 lg:ml-4 md:mr-8 ">
-            <div className="h-1/2 flex flex-row lg:ml-8 lg:mr-8 lg:mt-10 md:ml-5 md:mr-5 md:mt-10 md:mb-8  ">
-              <div className=" basis-1/3 bg-[#202226]">
+            <div className="h-1/2 flex flex-row lg:ml-8 lg:mr-8 lg:mt-10 md:ml-5 md:mr-5 md:mt-10 md:mb-8 ml-5 mr-5 mt-10 mb-8 overflow-hidden ">
+              <div className=" basis-1/3 bg-[#202226] mx-auto  overflow-hidden ">
                 {" "}
                 {/*carrusel 1 */}
                 <div className=" slider lg:ml-6  ">
@@ -84,7 +84,7 @@ export default function Video() {
                   </div>
                 </div>
               </div>
-              <div className=" basis-1/3 bg-[#202226]">
+              <div className=" basis-1/3 bg-[#202226]  mx-auto overflow-hidden">
                 {" "}
                 {/*carrusel 2 */}
                 <div className="slidar">
@@ -135,7 +135,7 @@ export default function Video() {
                   </div>
                 </div>
               </div>
-              <div className=" basis-1/3 bg-[#202226]">
+              <div className=" basis-1/3 bg-[#202226]  mx-auto overflow-hidden ">
                 {" "}
                 {/*carrusel 3 */}
                 <div className="slider">

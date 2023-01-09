@@ -1,10 +1,41 @@
-.slidar {
-    width: 20vh;
-    height: 65vh;
-    margin: auto;
-    overflow: hidden;
-}
+@media (max-width: 640px) {
+    .slidar {
+        width: 10vh; /*20vh*/
+        height: 40vh;
+        margin: auto;
+        overflow: hidden;
+    }
+  }
 
+
+  
+  @media (min-width: 641px) and (max-width: 768px) {
+    .slidar {
+        width: 10vh; /*20vh*/
+        height: 40vh;
+        margin: auto;
+        overflow: hidden;
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 1024px) {
+    
+.slidar {
+        width: 10vh; /*20vh*/
+        height: 56vh;
+        margin: auto;
+        overflow: hidden;
+}
+  }
+  
+  @media (min-width: 1025px) {
+    .slidar {
+        width: 20vh;
+        height: 62vh;
+        margin: auto;
+        overflow: hidden;
+    }
+  }
 .slidar .slida-track {
     display: flex;
     flex-direction: column;
@@ -19,10 +50,34 @@
     height: 200px;
 }
 
-.slidar .slida img {
-    width: 75%;
-    height: 50%;
-}
+@media (max-width: 640px) {
+    .slidar .slida img {
+        width: 32%;
+        height: 20%;
+    }
+  }
+
+@media (min-width: 641px) and (max-width: 768px) {
+    .slidar .slida img {
+        width: 32%;
+        height: 20%;
+    }
+  }
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    
+    .slidar .slida img {
+        width: 30%;
+        height: 20%;
+    }
+      }
+
+@media (min-width: 1025px) {
+    .slidar .slida img {
+        width: 70%;
+        height: 45%;
+    }
+  }
 
 @keyframes slida {
     100% {
