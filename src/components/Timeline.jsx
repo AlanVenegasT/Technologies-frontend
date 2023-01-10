@@ -5,15 +5,15 @@ export default function Timeline() {
     <div className="bg-[#1F2023]  ">
       <section class="mx-auto max-w-6xl h-full  pt-20 ">
         <div class="w-full ">
-          <h2 class="text-4xl font-bold text-white mb-7">Nuestra Historia</h2>
+          <h2 class="text-4xl font-bold text-white mb-7 md:ml-10 ml-5" >Nuestra Historia</h2>
           <ul className="">
-            <li class="relative flex items-baseline gap-6 pb-20">
+            <li class="relative flex items-baseline gap-6 pb-20 md:ml-10 lg:mx-5 mx-5">
                 <div class="before:absolute before:left-[10px] before:h-full before:w-[3px] before:bg-gradient-to-b from-[#E990FF] via-[#EAC8B4] to-[#EAFD6B]     ">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="36"
                     height="36"
-                    class="bi bi-circle-fill fill-[#E990FF]  "
+                    class="bi bi-circle-fill fill-[#E990FF]   "
                     viewBox="0 0 16 16"
                   >
                     <circle cx="5" cy="5" r="5" />
@@ -28,7 +28,7 @@ export default function Timeline() {
                 <p className="text-[#B2B2B2] mt-3  text-base">
                   Creamos la primera carrera digital
                 </p>
-                <p className="text-[#B2B2B2] mt-3  text-lg">
+                <p className="text-[#B2B2B2] mt-3  lg:text-lg md:text-lg text-sm">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Asperiores ex alias facilis aperiam voluptatibus tempora fuga
                   unde dignissimos architecto possimus? Nihil accusantium
@@ -36,7 +36,7 @@ export default function Timeline() {
                 </p>
               </div>
             </li>
-            <li class="relative flex items-baseline gap-6 pb-20">
+            <li class="relative flex items-baseline gap-6 pb-20 md:ml-10 lg:mx-5 mx-5 ">
                 <div class="before:absolute before:left-[10px] before:h-full before:w-[3px] before:bg-gradient-to-b from-[#EAFD6B] via-[#EAC8B4] to-[#E990FF]     ">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -54,10 +54,10 @@ export default function Timeline() {
                 <p class="mt-1 text-white text-sm">
                   Lorem ipsum dolor sit amet
                 </p>
-                <p className="text-[#B2B2B2] mt-3  text-base">
+                <p className="text-[#B2B2B2] mt-3  ">
                   Creamos la primera carrera digital
                 </p>
-                <p className="text-[#B2B2B2] mt-3  text-lg">
+                <p className="text-[#B2B2B2] mt-3  lg:text-lg md:text-lg text-sm">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Asperiores ex alias facilis aperiam voluptatibus tempora fuga
                   unde dignissimos architecto possimus? Nihil accusantium
@@ -65,7 +65,7 @@ export default function Timeline() {
                 </p>
               </div>
             </li>
-            <li class="relative flex items-baseline gap-6 pb-20">
+            <li class="relative flex items-baseline gap-6 pb-20 md:ml-10 lg:mx-5 mx-5">
                 <div class="before:absolute before:left-[10px] before:h-full before:w-[3px] before:bg-gradient-to-b from-[#E990FF] via-[#EAC8B4] to-[#EAFD6B]     ">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -86,7 +86,7 @@ export default function Timeline() {
                 <p className="text-[#B2B2B2] mt-3  text-base">
                   Creamos la primera carrera digital
                 </p>
-                <p className="text-[#B2B2B2] mt-3  text-lg">
+                <p className="text-[#B2B2B2] mt-3  lg:text-lg md:text-lg text-sm">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Asperiores ex alias facilis aperiam voluptatibus tempora fuga
                   unde dignissimos architecto possimus? Nihil accusantium
@@ -94,7 +94,7 @@ export default function Timeline() {
                 </p>
               </div>
             </li>
-            <li class="relative flex items-baseline gap-6 pb-20">
+            <li class="relative flex items-baseline gap-6 pb-20 md:ml-10 lg:mx-5 mx-5">
                 <div class="before:absolute before:left-[10px] before:h-full before:w-[3px] before:bg-gradient-to-b from-[#EAFD6B] via-[#EAC8B4] to-[#E990FF]    ">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -115,7 +115,7 @@ export default function Timeline() {
                 <p className="text-[#B2B2B2] mt-3  text-base">
                   Creamos la primera carrera digital
                 </p>
-                <p className="text-[#B2B2B2] mt-3  text-lg">
+                <p className="text-[#B2B2B2] mt-3  lg:text-lg md:text-lg text-sm">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Asperiores ex alias facilis aperiam voluptatibus tempora fuga
                   unde dignissimos architecto possimus? Nihil accusantium

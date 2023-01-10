@@ -111,10 +111,11 @@ export default function Formu() {
                         className="ml-4 block text-base text-white"
                       >
                         Al seleccionar esto, usted acepta las{" "}
-                        <span className="font-semibold text-[#EAFF6A] underline">
+                        <span className="font-semibold text-[#EAFF6A] underline " >
                           {" "}
-                          Politicas de Privacidad{" "}
+                          Politicas de Privacidad{" "} 
                         </span>{" "}
+                        
                         y{" "}
                         <span className="font-semibold text-[#EAFF6A] underline">
                           {" "}
@@ -140,7 +141,7 @@ export default function Formu() {
         <div className="relative hidden w-0 flex-1 lg:block">
           
           
-          <div className="absolute inset-0  bg-center bg-cover bg-[url('https://www.sccenlared.es/wp-content/uploads/2021/09/por-que-interesa-optar-por-los-servicios-gestionados-y-la-internalizacion-de-ti.jpg')] ">
+          <div className="absolute inset-0  bg-center bg-cover bg-[url('/FormuH.jpg')] ">
            <div className="w-full h-full  bg-gradient-to-r from-[#1F2023] ">
               
            </div>

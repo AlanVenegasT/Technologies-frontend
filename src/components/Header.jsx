@@ -1,5 +1,5 @@
 import { Fragment } from 'react'
-import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom';
 import { Popover, Transition } from '@headlessui/react'
 import {
   ArrowPathIcon,
@@ -64,16 +64,16 @@ function classNames(...classes) {
 const Header = () => {
   return (
     <Popover className=" bg-gradient-to-r fixed w-full z-50 from-[#E990FF] via-[#B29DF9] to-[#83AEFB] shadow-2xl px-0 py-0  md:py-0 md:px-0 lg:px-0 lg:py-0">
-      <div className="flex items-center justify-between p-6 md:justify-start md:space-x-10">
+      <div className="flex items-center justify-between px-6 py-5 md:justify-start md:space-x-10">
         <div className="flex justify-start lg:w-0 lg:flex-1">
-          <a href="#">
+          <Link to="/">
             <span className="sr-only">Your Company</span>
             <img
               className="h-8 lg:h-11 md:h-8 w-auto sm:h-10"
               src="Logo IKTANTec.png"
               alt=""
             />
-          </a>
+          </Link>
         </div>
         <div className="-my-2 -mr-2 md:hidden">
           <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
@@ -149,10 +149,10 @@ const Header = () => {
             )}
           </Popover>
 
-          <Link tu="/" className="text-base font-medium text-[#1F2023] hover:text-white">
+          <Link to="/" className="text-base font-medium text-[#1F2023] hover:text-white">
             Home
           </Link>
-          <Link tu="/FormularioC" className="text-base font-medium text-[#1F2023] hover:text-white">
+          <Link to="/FormularioC" className="text-base font-medium text-[#1F2023] hover:text-white">
             Contacto
           </Link>
 
