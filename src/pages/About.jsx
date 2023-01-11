@@ -25,8 +25,8 @@ const About = () => {
       <div className="bg-[#1F2023]">
         <div className="mx-auto max-w-7xl py-6 px-4 md:px-8 md lg:px-8 lg:pt-28 lg:pb-16 xl:py-36">
           <div className="space-y-20">
-            <div className="space-y-5 sm:space-y-4 md:max-w-xl xl:max-w-none">
-              <h2 className="text-6xl  font-bold text-center text-white lg:pt-0 lg:pl-50 xl:pl-16  md:pt-20 md:pl-28   pt-20">
+            <div className="space-y-5 sm:space-y-4 md:max-w-xl xl:max-w-none lg:max-w-none ">
+              <h2 className="text-6xl  font-bold text-center text-white   lx:pt-0 xl:pl-50 lg:pt-0 lg:pl-20 md:pt-20 md:pl-28   pt-20">
                 Conoce a nuestro equipo
               </h2>
               <p className="text-xl text-center text-white p-7  md:pl-28">
