@@ -36,7 +36,7 @@ const Forbes = () => {
         <p className='text-center text-white text-base pb-5 md:text-lg md:pb-10 lg:text-xl lg:pb-16'>Nuestras apariciones en los medios</p>
     <div className="mx-auto max-w-2xl py-8 px-4 sm:py-24 sm:px-6  lg:grid lg:max-w-6xl lg:grid-cols-12 lg:gap-x-8 lg:py-16 lg:px-8 md:grid md:max-w-3xl md:grid-cols-12 md:gap-x-8 md:py-12 md:px-8 grid  grid-cols-12 gap-x-8  bg-[#1F2023] border-[#2E2F36] border-2 rounded-md">
       <div className="col-span-4">
-        <h2 className="text-7xl font-bold tracking-tight text-white text-center">Forbes</h2>
+        <h2 className="lg:text-7xl md:text-7xl text-5xl font-bold tracking-tight text-white text-center">Forbes</h2>
       </div>
 
       <div className=" lg:col-span-7 lg:col-start-6 lg:mt-0 md:col-span-7 md:col-start-6 md:mt-0 col-span-7 col-start-6 mt-0">
