@@ -1,7 +1,7 @@
 @media (max-width: 640px) {
     .slidar {
         width: 20vh; /*20vh*/
-        height: 60vh;
+        height: 40vh; /* este es el ancho del contenedor de todo el carrusel*/
         margin: auto;
         overflow: hidden;
     }
@@ -63,7 +63,7 @@
 
 @media (max-width: 640px) {
     .slidar .slida img {
-        width: 60%;
+        width: 45%;
         height: 60%;
     }
   }
