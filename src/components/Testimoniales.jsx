@@ -81,13 +81,17 @@ export default function Testimoniales() {
         Más de 180,000 estudiantes nos recomiendan en todo Latinoamérica
       </h2>
       <div className="bg-[#1F2023]    ">
-        <div className="  divide-gray-200 overflow-hidden rounded-lg bg-[#1F2023] shadow grid grid-cols-2 gap-px divide-y-0 mx-auto max-w-2xl md:max-w-3xl lg:max-w-6xl">
+        <div className="  divide-gray-200 overflow-hidden rounded-lg bg-[#1F2023] shadow lg:grid lg:grid-cols-2 lg:gap-px md:grid md:grid-cols-2 md:gap-px flex-col divide-y-0 mx-auto max-w-2xl md:max-w-3xl lg:max-w-6xl">
           {actions.map((action, actionIdx) => (
             <div
               key={action.title}
               className={classNames(
                 actionIdx === 0 ? " rounded-lg sm:rounded-lg" : "",
-                actionIdx === 1 ? "rounded-lg" : "",
+                actionIdx === 1 ? "rounded-lg " : "",
+                actionIdx === 2 ? "rounded-lg hidden xl:block 2xl:block lg:block md:block sm:block" : "",
+                actionIdx === 3 ? "rounded-lg hidden xl:block 2xl:block lg:block md:block sm:block" : "",
+                actionIdx === 4 ? "rounded-lg hidden xl:block 2xl:block lg:block md:block sm:block" : "",
+                actionIdx === 5 ? "rounded-lg hidden xl:block 2xl:block lg:block md:block sm:block" : "",
                 actionIdx === actions.length - 2 ? "rounded-lg" : "",
                 actionIdx === actions.length - 1
                   ? "rounded-lg  sm:rounded-lg"
@@ -95,7 +99,7 @@ export default function Testimoniales() {
                 "relative group my-2 mx-3 md:my-3 md:mx-3 lg:my-3 lg:mx-3 duration-700 hover:scale-95 bg-[#2B2C32] p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500"
               )}
             >
-              <div></div>
+             
               <div className=" lg:mt-8 md:mt-8 mt-0 ">
                 <h3 className="lg:text-base md:text-sm  text-xs font-medium lg:pl-12 md:pl-2 pl-0">
                   <a

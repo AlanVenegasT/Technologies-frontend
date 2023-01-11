@@ -1,7 +1,7 @@
 @media (max-width: 640px) {
     .slidar {
-        width: 10vh; /*20vh*/
-        height: 40vh;
+        width: 20vh; /*20vh*/
+        height: 60vh;
         margin: auto;
         overflow: hidden;
     }
@@ -30,7 +30,7 @@
   
   @media (min-width: 1025px) {
     .slidar {
-        width: 20vh;
+        width: 25vh;
         height: 62vh;
         margin: auto;
         overflow: hidden;
@@ -39,7 +39,7 @@
 
   @media (min-width: 1075px) {
     .slidar {
-        width: 20vh;
+        width: 25vh;
         height: 82vh;
         margin: auto;
         overflow: hidden;
@@ -50,8 +50,8 @@
 .slidar .slida-track {
     display: flex;
     flex-direction: column;
-    animation: slida 40s linear infinite;
-    -webkit-animation: slida 40s linear infinite;
+    animation: slida 20s linear infinite;
+    -webkit-animation: slida 20s linear infinite;
     width: 200px;
     height: calc(200px * 14);
 }
@@ -63,8 +63,8 @@
 
 @media (max-width: 640px) {
     .slidar .slida img {
-        width: 32%;
-        height: 20%;
+        width: 60%;
+        height: 60%;
     }
   }
 
@@ -92,8 +92,8 @@
 
   @media (min-width: 1075px) {
     .slidar .slida img {
-        width: 60%;
-        height: 35%;
+        width: 65%;
+        height: 75%;
     }
   }
 
