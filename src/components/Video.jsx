@@ -6,9 +6,9 @@ export default function Video() {
   return (
     <div className="bg-[#1F2023] lg:pb-20 md:pb-16 pb-16 pt-2 ">
       <div className="mx-auto lg:max-w-7xl  ">
-        <div className="  lg:grid  lg:grid-cols-2 lg:gap-4  flex-col">
+        <div className="  lg:grid  lg:grid-cols-2 lg:gap-4  md:grid  md:grid-cols-2 md:gap-4  flex-col">
           <div className=" row-span-2 row-start-1 row-end-4  bg-[#27282D] rounded-md lg:mr-4 lg:ml-8 md:mr-8 md:ml-8 mr-4 ml-4   ">
-            <h2 className="lg:text-6xl md:text-4xl text-2xl  lg:ml-8 lg:mr-8 lg:mt-12 md:ml-10 md:mr-8 md:mt-6 mr-4 mt-3 ml-5 pt-12 px-10 font-bold text-white lg:leading-[72px] md:leading-[72px] leading-[24px] ">
+            <h2 className="lg:text-6xl md:text-4xl text-2xl  lg:ml-8 lg:mr-8 lg:mt-12 md:ml-5 md:mr-8 md:mt-6 mr-4 mt-3 ml-5 pt-12 px-10 font-bold text-white lg:leading-[72px] md:leading-[50px] leading-[24px] ">
               La mejor educacion en línea a tu alcance
             </h2>
             <h3 className="lg:text-xl lg:ml-8 lg:mr-8 lg:mt-6 md:text-sm md:ml-10 md:mr-8 md:mt-6 text-sm ml-5 mr-6 mt-4 pt-12 px-10 text-[#B3B3B3]">
@@ -31,8 +31,8 @@ export default function Video() {
               darán feedback sobre tus proyectos siempre que lo necesites.
             </h3>
           </div>
-          <div className="row-start-1 row-end-6 md:row-start-1 md:lg:row-end-6 lg:row-start-1   bg-[#27282D] rounded-md lg:mr-8 lg:ml-4 lg:mt-0 md:mt-0 md:mr-8 mr-4  ml-4 mt-6 ">
-            <div className="h-1/2 lg:flex lg:flex-row flex flex-row  lg:ml-8 lg:mr-8 lg:mt-10 lg:mb-0 lg:pb-20  md:ml-5 md:mr-5 md:mt-10 md:mb-8 ml-5 mr-5 mt-10 mb-8 overflow-hidden ">
+          <div className="row-start-1 row-end-6 md:row-start-1 md:lg:row-end-6 lg:row-start-1   bg-[#27282D] rounded-md lg:mr-8 lg:ml-4 lg:mt-4 md:mt-0 md:mr-8 mr-4  ml-4 mt-0 ">
+            <div className="h-1/2 lg:flex lg:flex-row flex flex-row  lg:ml-8 lg:mr-8 lg:mt-10 lg:mb-0 lg:pb-20  md:ml-5 md:mr-5 md:mt-10 md:mb-8 ml-5 mr-5 mt-10 mb-8 pt-5 overflow-hidden ">
               <div className=" basis-1/3 bg-[#202226] mx-auto  overflow-hidden ">
                 {" "}
                 {/*carrusel 1 */}

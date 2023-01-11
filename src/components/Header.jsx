@@ -15,9 +15,9 @@ import { ChevronDownIcon } from '@heroicons/react/20/solid'
 
 const solutions = [
   {
-    name: 'Analytics',
+    name: 'Desarrollo Web',
     description: 'Get a better understanding of where your traffic is coming from.',
-    href: '#',
+    href: '#Desweb',
     icon: ChartBarIcon,
   },
   {
@@ -48,7 +48,7 @@ const solutions = [
 ]
 const resources = [
   {
-    name: 'Help Center',
+    name: 'Mision y Vision',
     description: 'Get all of your questions answered in our forums or contact support.',
     href: '#',
   },

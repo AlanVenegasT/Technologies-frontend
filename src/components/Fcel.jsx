@@ -25,11 +25,11 @@ export default function Fcel ()  {
         <div className="mt-16 md:col-span-7 md:col-start-6 md:mt-0 lg:col-span-7 lg:col-start-6 lg:mt-0">
           <h3 className="sr-only">Recent reviews</h3>
           <div className="flow-root">
-            <div className="absolute lg:-my-16 lg:pl-32 md:-my-16 md:pl-32 -my-32 pl-64  divide-y text-white divide-gray-200">
-            <img className='object-cover w-1/3  ' src="Celular.png" alt="" />
+            <div className="absolute lg:-my-16 lg:pl-32 md:-my-72 md:pl-32 -my-32 pl-64  divide-y text-white divide-gray-200">
+            <img className='object-cover lg:w-1/3 md:w-2/3 w-1/3  ' src="Celular.png" alt="" />
             </div>
           </div>
-        </div>
+        </div> 
       </div>
     </div>
     </>

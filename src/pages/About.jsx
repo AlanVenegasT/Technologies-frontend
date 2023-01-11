@@ -43,7 +43,7 @@ const About = () => {
             </div>
             <div className=" w-full lg:grid lg:grid-cols-3 md:grid md:grid-cols-3  bg-[#1F2023] lg:h-96 md:h-64 h-40 grid grid-cols-1 gap-x-8 lg:pb-0 md:pb-0 pb-[900px]">
               <div className=" col-span-1 bg-[#27282D] p-4">
-                <h1 className="text-[#FEFEFE]   font-bold lg:text-6xl lg:mt-20 lg:ml-6 md:text-5xl md:mt-6 md:ml-3 text-4xl mt-6 ml-3 ">Misión</h1>
+                <h1 id="mv" className="text-[#FEFEFE]   font-bold lg:text-6xl lg:mt-20 lg:ml-6 md:text-5xl md:mt-6 md:ml-3 text-4xl mt-6 ml-3 ">Misión</h1>
                 <p className="text-[#B8B8B8] lg:text-xl lg:mt-7 lg:ml-6 lg:mb-20 md:text-lg md:mt-5 md:ml-3 md:mb-20 text-xl mt-7 ml-6 mb-16 ">Brindar educación efectiva de la manera más rápida y accesible posible.</p>
               </div>
               <div className="  col-span-1 bg-amber-200 lg:my-0 md:my-0 my-10">

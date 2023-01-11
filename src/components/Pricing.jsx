@@ -56,7 +56,7 @@ export default function Pricing  ()  {
   return (
     <div className='bg-[#1F2023] lg:pt-32 '> 
     <div className='mx-auto max-w-6xl  '>
-        <h2 className='lg:text-5xl md:text-3xl text-2xl pl-4 font-bold text-white '>Elige tu curso o carrera</h2>
+        <h2 className='lg:text-5xl md:text-3xl text-2xl pl-4 font-bold text-white ' id='Desweb' >Elige tu curso o carrera</h2>
         <h3 className='lg:text-3xl md:text-3xl  text-2xl pl-4 font-normal text-white lg:my-10 md:my-5 my-3 '>CARRERAS</h3>
         <div className="sm:hidden">
         <label htmlFor="tabs" className="sr-only">
