@@ -231,7 +231,7 @@ const Header = () => {
                 <div>
                   <img
                     className="h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                    src="Logo IKTANTec.png"
                     alt="Your Company"
                   />
                 </div>
@@ -250,7 +250,7 @@ const Header = () => {
                       href={solution.href}
                       className="-m-3 flex items-center rounded-lg p-3 hover:bg-gray-50"
                     >
-                      <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-md bg-indigo-500 text-white">
+                      <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-md bg-gradient-to-r from-[#E990FF] via-[#B29DF9] to-[#83AEFB] text-white">
                         <solution.icon className="h-6 w-6" aria-hidden="true" />
                       </div>
                       <div className="ml-4 text-base font-medium text-gray-900">{solution.name}</div>
@@ -261,16 +261,18 @@ const Header = () => {
             </div>
             <div className="py-6 px-5">
               <div className="grid grid-cols-2 gap-4">
-                <a href="#" className="text-base font-medium text-gray-900 hover:text-gray-700">
-                  Pricing
+                <a href="#" className="text-base font-medium text-black hover:text-white">
+                  Servicios
                 </a>
 
-                <a href="#" className="text-base font-medium text-gray-900 hover:text-gray-700">
-                  Docs
+                
+
+                <a href="/FormularioC" className="text-base font-medium text-black hover:text-white">
+                Contacto
                 </a>
 
-                <a href="#" className="text-base font-medium text-gray-900 hover:text-gray-700">
-                  Enterprise
+                <a href="/About" className="text-base font-medium text-black hover:text-white">
+                  Somos
                 </a>
                 {resources.map((resource) => (
                   <a
@@ -284,8 +286,8 @@ const Header = () => {
               </div>
               <div className="mt-6">
                 <a
-                  href="#"
-                  className="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-4 py-2 text-base font-medium text-[#1F2023] shadow-sm hover:bg-indigo-700"
+                  href="/"
+                  className="flex w-full items-center justify-center rounded-md border border-transparent bg-gradient-to-r from-[#E990FF] via-[#B29DF9] to-[#83AEFB] px-4 py-2 text-base font-semibold text-[#1F2023] shadow-sm hover:bg-indigo-700"
                 >
                   Bienvenido
                 </a>
