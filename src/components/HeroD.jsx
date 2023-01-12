@@ -11,7 +11,7 @@ export default function HeroD() {
           </h3>
         </div>
         <h2 className="lg:text-6xl md:text-4xl  font-bold  tracking-tight text-white text-2xl mt-5  lg:mt-14 md:mt-7 ">
-          <span className="block lg:mt-3 md:mt-1 mt-1 ">Únete a la comunidad de</span>
+          <span className="block lg:mt-3 md:mt-1 mt-1 ">Únete a la comunidad de Alan</span>
           <span className="block lg:mt-3 md:mt-1 mt-1">
             aprendizaje en línea y en vivo más
           </span>
