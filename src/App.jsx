@@ -8,6 +8,7 @@ import About from "./pages/About";
 import FormularioC from "./pages/FormularioC";
 import PoliticasdePrivacidad from "./pages/PoliticasdePrivacidad";
 import Servicios from "./pages/Servicios";
+import Pricing from "./components/Pricing";
 
 function App() {
   return (

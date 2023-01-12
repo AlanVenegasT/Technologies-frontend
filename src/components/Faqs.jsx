@@ -4,29 +4,29 @@ import { ChevronDownIcon } from "@heroicons/react/24/outline";
 
 const faqs = [
   {
-    question: "¿Cómo es la modalidad de cursado en línea y en vivo?",
+    question: "¿Quién de IKTAN estará asignado a mi proyecto?",
     answer:
-      "Todos los cursos y carreras de Coderhouse son en línea y en vivo. Esto quiere decir que tanto los profesores y tutores como los estudiantes deben conectarse en días y horarios puntuales. El mayor beneficio es que durante las clases podrás interactuar con ellos. También contarás con asistencia de tutores que te ayudarán con tus consultas teóricas, desafíos y proyectos.",
+      "Una persona será asignada a cargo del servicio que se le brinde así mismo se le otorgará seguimiento.",
   },
   {
-    question: "¿Qué validez tienen los cursos y carreras de Coderhouse?",
+    question: "¿Cómo contratar un servicio?",
     answer:
-      "Los programas de cada uno de los cursos y carreras de Coderhouse son cocreados con empresas líderes en innovación de Latinoamérica como Mercado Libre, Bitso, Ualá, Rappi, Despegar, entre otras. Esto nos permite tener nuestros contenidos actualizados y avalados por referentes de la industria.",
+      "Ingrese la información en nuestra sección de contacto, e inmediato nos pondremos en contacto.",
   },
   {
-    question: "¿Tienen oficinas en México?",
+    question: "4.	Formas de Pago",
     answer:
-      " contamos con un espacio de trabajo en We Work en Ciudad de México.",
+      "Contamos con diferentes formas de pago",
   },
   {
-    question: "¿Otorgan factura de compra?",
+    question: "¿Qué profesionales lo conforman?",
     answer:
-      "Sí, una vez que realizas el pago de tu curso o carrera, te enviaremos la factura correspondiente.",
+      "Nuestro equipo es totalmente nuevo y esta conformado por especialistas en diversas áreas.",
   },
   {
-    question: "¿Cuáles son los medios de pago?",
+    question: "¿A que sector del mercado están enfocados nuestros servicios?",
     answer:
-      "Puedes pagar con tarjeta de débito o crédito a través Mercado Pago en 12 meses sin intereses, a través de PayPal, o en efectivo dirigiéndote a tu sucursal de OXXO más cercana. El pago se realizará en pesos mexicanos.",
+      "Nuestros profesionales están 100% comprometidos en abastecer las necesidades, en cuanto a los sectores atenderemos tanto al sector público como privado.",
   },
   // More questions...
 ];

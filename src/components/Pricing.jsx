@@ -62,18 +62,24 @@ export default function Pricing  ()  {
         <label htmlFor="tabs" className="sr-only">
           Select a tab
         </label>
+
+
+
+
         {/* Use an "onChange" listener to redirect the user to the selected tab URL. */}
         <select
           id="tabs"
           name="tabs"
           className="block w-2/3  mx-5 rounded-md border-gray-300 py-2 pl-3 pr-10 text-base bg-[#2B2C32]  focus:border-white text-white focus:outline-none focus:ring-white sm:text-sm"
-          defaultValue={tabs.find((tab) => tab.current)}
-          
-        >
+          defaultValue={tabs.find((tab) => tab.current)} >
           {tabs.map((tab) => (
-            <option key={tab.name}>{tab.name}</option>
+            <option key={tab.name} >{tab.name}</option>
+            
           ))}
         </select>
+
+
+
       </div>
       <div className="hidden sm:block md:px-5 ">
         <div className="border-b border-[#BEBEBE] ">

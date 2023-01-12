@@ -21,8 +21,8 @@
   @media (min-width: 769px) and (max-width: 1024px) {
     
 .slidar {
-        width: 10vh; /*20vh*/
-        height: 42vh;
+        width: 60vh; /*20vh*/
+        height: 72vh;
         margin: auto;
         overflow: hidden;
 }
@@ -78,8 +78,8 @@
 @media (min-width: 769px) and (max-width: 1024px) {
     
     .slidar .slida img {
-        width: 30%;
-        height: 20%;
+        width: 55%;
+        height: 70%;
     }
       }
 

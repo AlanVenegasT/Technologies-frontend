@@ -17,7 +17,7 @@ const solutions = [
   {
     name: 'Desarrollo Web',
     description: 'Get a better understanding of where your traffic is coming from.',
-    href: '#Desweb',
+    href: '#',
     icon: ChartBarIcon,
   },
   {
@@ -42,7 +42,7 @@ const solutions = [
   {
     name: 'Reports',
     description: 'Get detailed reports that will help you make more informed decisions ',
-    href: '#',
+    href: '#mv',
     icon: DocumentChartBarIcon,
   },
 ]
@@ -165,9 +165,10 @@ const Header = () => {
                     'group inline-flex items-center rounded-md bg-transparent text-base font-medium hover:text-white focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2'
                   )}
                 >
-                
+                 
+                 <Link to="/About">
                   <span>Somos</span>
-                  
+                  </Link>
                   <ChevronDownIcon
                     className={classNames(
                       open ? 'text-[#1F2023]' : 'text-[#1F2023]',
@@ -243,7 +244,7 @@ const Header = () => {
                 </div>
               </div>
               <div className="mt-6">
-                <nav className="grid grid-cols-1 gap-7">
+                <nav className="grid grid-cols-2 gap-7">
                   {solutions.map((solution) => (
                     <a
                       key={solution.name}
@@ -261,19 +262,19 @@ const Header = () => {
             </div>
             <div className="py-6 px-5">
               <div className="grid grid-cols-2 gap-4">
-                <a href="#" className="text-base font-medium text-black hover:text-white">
+                <Link to="#" className="text-base font-medium text-black hover:text-white">
                   Servicios
-                </a>
+                </Link>
 
                 
 
-                <a href="/FormularioC" className="text-base font-medium text-black hover:text-white">
+                <Link to="/FormularioC" className="text-base font-medium text-black hover:text-white">
                 Contacto
-                </a>
+                </Link>
 
-                <a href="/About" className="text-base font-medium text-black hover:text-white">
+                <Link to="/About" className="text-base font-medium text-black hover:text-white">
                   Somos
-                </a>
+                </Link>
                 {resources.map((resource) => (
                   <a
                     key={resource.name}

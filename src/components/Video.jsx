@@ -32,7 +32,7 @@ export default function Video() {
             </h3>
           </div>
           <div className="row-start-1 row-end-6 md:row-start-1 md:lg:row-end-6 lg:row-start-1   bg-[#27282D] rounded-md lg:mr-8 lg:ml-4 lg:mt-0 md:mt-0 md:mr-8 mr-4  ml-4 mt-0 ">
-            <div className="h-1/2 lg:flex lg:flex-row flex flex-row  lg:ml-8 lg:mr-8 lg:mt-10 lg:mb-0 lg:pb-20  md:ml-5 md:mr-5 md:mt-5 md:mb-0 md:pb-10 ml-5 mr-5 mt-10 mb-8 pt-5 overflow-hidden ">
+            <div className="h-1/2  xl:flex xl:flex-row lg:flex lg:flex-row flex flex-row xl:ml-8 xl:mr-8 xl:mt-10 xl:mb-0 xl:pb-20 lg:ml-8 lg:mr-8 lg:mt-10 lg:mb-0 lg:pb-32  md:ml-5 md:mr-5 md:mt-5 md:mb-0 md:pb-10 ml-5 mr-5 mt-10 mb-8 pt-5 overflow-hidden ">
               <div className=" basis-1/3 bg-[#202226] mx-auto  overflow-hidden  ">
                 {" "}
                 {/*carrusel 1 */}

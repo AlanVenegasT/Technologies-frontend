@@ -24,7 +24,7 @@ export default function Text() {
             </div>
           </div>
           <div className="absolute  ">
-            <div className=" w-[205px] h-[320px] md:w-[270px] md:h-[400px] lg:w-[430px] lg:h-[500px]  bg-[#1F2023] border-[#E990FF] border-2 translate-x-40 translate-y-12 transform rounded-md object-cover object-left-top  lg:translate-y-14 lg:translate-x-[590px] xl:translate-x-[700px] md:translate-y-14 md:translate-x-[420px]  shadow-[#1F2023] shadow-xl ">
+            <div className=" w-[205px] h-[320px] md:w-[270px] md:h-[400px] lg:w-[430px] lg:h-[500px] xl:w-[430px] xl:h-[500px]  bg-[#1F2023] border-[#E990FF] border-2 translate-x-40 translate-y-12 transform rounded-md object-cover object-left-top  lg:translate-y-14 lg:translate-x-[490px] xl:translate-x-[700px] md:translate-y-14 md:translate-x-[420px]  shadow-[#1F2023] shadow-xl ">
             <h3 className="text-white  text-center lg:text-5xl lg:pt-10 lg:pb-8 md:text-3xl md:pt-5 md:pb-4 text-xl pt-3 pb-2 font-semibold ">¿Cómo accedo?</h3>
             <h4 className="text-[#9B9B9C] lg:pb-5 lg:pl-10 lg:pr-10 lg:text-lg md:pb-2 md:pl-10 md:pr-6 md:text-sm pb-2 pl-10 pr-6 text-xs ">El acceso a la CoderBeca es <b>automático y para todos</b>, solo debes cumplir con 2 requisitos una vez dentro del curso:</h4>
             <ul className="list-disc list-outside text-[#9B9B9C] lg:pb-12 lg:pl-16 lg:pr-10 lg:text-lg md:pb-12 md:pl-16 md:pr-10 md:text-sm pb-2 pl-14 pr-5 text-xs  lg:leading-8 md:leading-8 leading-4">
