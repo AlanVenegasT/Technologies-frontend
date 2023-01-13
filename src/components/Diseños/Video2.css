@@ -22,7 +22,7 @@
     
 .slidar {
         width: 60vh; /*20vh*/
-        height: 72vh;
+        height: 80vh;
         margin: auto;
         overflow: hidden;
 }
@@ -39,7 +39,7 @@
 
   @media (min-width: 1075px) {
     .slidar {
-        width: 25vh;
+        width: 30vh;
         height: 82vh;
         margin: auto;
         overflow: hidden;
@@ -65,21 +65,27 @@
     .slidar .slida img {
         width: 45%;
         height: 60%;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px;
     }
   }
 
 @media (min-width: 641px) and (max-width: 768px) {
     .slidar .slida img {
         width: 45%;
-        height: 65%;
+        height: 55%;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px;
     }
   }
 
 @media (min-width: 769px) and (max-width: 1024px) {
     
     .slidar .slida img {
-        width: 55%;
-        height: 70%;
+        width: 60%;
+        height: 65%;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px;
     }
       }
 
@@ -87,13 +93,17 @@
     .slidar .slida img {
         width: 70%;
         height: 45%;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px;
     }
   }
 
   @media (min-width: 1075px) {
     .slidar .slida img {
-        width: 65%;
-        height: 75%;
+        width: 80%;
+        height: 85%;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px;
     }
   }
 

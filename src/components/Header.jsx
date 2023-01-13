@@ -17,7 +17,7 @@ const solutions = [
   {
     name: 'Desarrollo Web',
     description: 'Get a better understanding of where your traffic is coming from.',
-    href: '#',
+    href: '/#web',
     icon: ChartBarIcon,
   },
   {
@@ -42,7 +42,7 @@ const solutions = [
   {
     name: 'Reports',
     description: 'Get detailed reports that will help you make more informed decisions ',
-    href: '#mv',
+    href: '#',
     icon: DocumentChartBarIcon,
   },
 ]
@@ -114,9 +114,9 @@ const Header = () => {
                     <div className="overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
                       <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8 lg:grid-cols-2">
                         {solutions.map((solution) => (
-                          <a
+                          <Link
                             key={solution.name}
-                            href={solution.href}
+                            to={solution.href}
                             className="-m-3 flex items-start rounded-lg p-3 hover:bg-gray-50"
                           >
                             <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-md bg-gradient-to-r from-[#E990FF] via-[#B29DF9] to-[#83AEFB] text-white sm:h-12 sm:w-12">
@@ -126,7 +126,7 @@ const Header = () => {
                               <p className="text-base font-medium text-gray-900">{solution.name}</p>
                               <p className="mt-1 text-sm text-gray-500">{solution.description}</p>
                             </div>
-                          </a>
+                          </Link>
                         ))}
                       </div>
                       <div className="bg-gray-50 p-5 sm:p-8">

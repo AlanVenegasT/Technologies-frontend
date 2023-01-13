@@ -36,50 +36,50 @@ export default function Video() {
               <div className=" basis-1/3 bg-[#202226] mx-auto  overflow-hidden  ">
                 {" "}
                 {/*carrusel 1 */}
-                <div className=" slider lg:ml-6   ">
+                <div className=" slider    ">
                   <div className=" slide-track  ">
                     <div className="slide  ">
-                      <img src="persona.png" alt="alan" />
+                      <img src="persona1.jpg" alt="alan" />
                     </div>
                     <div className="slide rounded-md">
-                      <img src="persona.png" alt="alan2" />
+                      <img src="persona2.jpg" alt="alan2" />
                     </div>
                     <div className="slide">
-                      <img src="persona.png" alt="alan3" />
+                      <img src="persona3.jpg" alt="alan3" />
                     </div>
                     <div className="slide">
-                      <img src="persona.png" alt="alan4" />
+                      <img src="persona4.jpg" alt="alan4" />
                     </div>
                     <div className="slide">
-                      <img src="persona.png" alt="alan5" />
+                      <img src="persona5.jpg" alt="alan5" />
                     </div>
                     <div className="slide">
-                      <img src="persona.png" alt="alan6" />
+                      <img src="persona6.jpg" alt="alan6" />
                     </div>
                     <div className="slide">
-                      <img src="persona.png" alt="alan7" />
+                      <img src="persona7.jpg" alt="alan7" />
                     </div>
 
                     <div className="slide">
-                      <img src="persona.png" alt="alan8" />
+                      <img src="persona1.jpg" alt="alan8" />
                     </div>
                     <div className="slide">
-                      <img src="persona.png" alt="alan9" />
+                      <img src="persona2.jpg" alt="alan9" />
                     </div>
                     <div className="slide">
-                      <img src="persona.png" alt="alan10" />
+                      <img src="persona3.jpg" alt="alan10" />
                     </div>
                     <div className="slide">
-                      <img src="persona.png" alt="alan11" />
+                      <img src="persona4.jpg" alt="alan11" />
                     </div>
                     <div className="slide">
-                      <img src="persona.png" alt="alan12" />
+                      <img src="persona5.jpg" alt="alan12" />
                     </div>
                     <div className="slide">
-                      <img src="persona.png" alt="alan13" />
+                      <img src="persona6.jpg" alt="alan13" />
                     </div>
                     <div className="slide">
-                      <img src="persona.png" alt="alan14" />
+                      <img src="persona7.jpg" alt="alan14" />
                     </div>
                   </div>
                 </div>
@@ -90,47 +90,47 @@ export default function Video() {
                 <div className="slidar">
                   <div className="slida-track">
                     <div className="slida">
-                      <img src="persona.png" alt="alan" />
+                      <img src="persona1.jpg" alt="alan" />
                     </div>
                     <div className="slida">
-                      <img src="persona.png" alt="alan2" />
+                      <img src="persona2.jpg" alt="alan2" />
                     </div>
                     <div className="slida">
-                      <img src="persona.png" alt="alan3" />
+                      <img src="persona3.jpg" alt="alan3" />
                     </div>
                     <div className="slida">
-                      <img src="persona.png" alt="alan4" />
+                      <img src="persona4.jpg" alt="alan4" />
                     </div>
                     <div className="slida">
-                      <img src="persona.png" alt="alan5" />
+                      <img src="persona5.jpg" alt="alan5" />
                     </div>
                     <div className="slida">
-                      <img src="persona.png" alt="alan6" />
+                      <img src="persona6.jpg" alt="alan6" />
                     </div>
                     <div className="slida">
-                      <img src="persona.png" alt="alan7" />
+                      <img src="persona7.jpg" alt="alan7" />
                     </div>
 
                     <div className="slida">
-                      <img src="persona.png" alt="alan8" />
+                      <img src="persona1.jpg" alt="alan8" />
                     </div>
                     <div className="slida">
-                      <img src="persona.png" alt="alan9" />
+                      <img src="persona2.jpg" alt="alan9" />
                     </div>
                     <div className="slida">
-                      <img src="persona.png" alt="alan10" />
+                      <img src="persona3.jpg" alt="alan10" />
                     </div>
                     <div className="slida">
-                      <img src="persona.png" alt="alan11" />
+                      <img src="persona4.jpg" alt="alan11" />
                     </div>
                     <div className="slida">
-                      <img src="persona.png" alt="alan12" />
+                      <img src="persona5.jpg" alt="alan12" />
                     </div>
                     <div className="slida">
-                      <img src="persona.png" alt="alan13" />
+                      <img src="persona6.jpg" alt="alan13" />
                     </div>
                     <div className="slida">
-                      <img src="persona.png" alt="alan14" />
+                      <img src="persona7.jpg" alt="alan14" />
                     </div>
                   </div>
                 </div>
@@ -141,47 +141,47 @@ export default function Video() {
                 <div className="slider">
                   <div className="slide-track">
                     <div className="slide">
-                      <img src="persona.png" alt="alan" />
+                      <img src="persona1.jpg" alt="alan" />
                     </div>
                     <div className="slide">
-                      <img src="persona.png" alt="alan2" />
+                      <img src="persona2.jpg" alt="alan2" />
                     </div>
                     <div className="slide">
-                      <img src="persona.png" alt="alan3" />
+                      <img src="persona3.jpg" alt="alan3" />
                     </div>
                     <div className="slide">
-                      <img src="persona.png" alt="alan4" />
+                      <img src="persona4.jpg" alt="alan4" />
                     </div>
                     <div className="slide">
-                      <img src="persona.png" alt="alan5" />
+                      <img src="persona5.jpg" alt="alan5" />
                     </div>
                     <div className="slide">
-                      <img src="persona.png" alt="alan6" />
+                      <img src="persona6.jpg" alt="alan6" />
                     </div>
                     <div className="slide">
-                      <img src="persona.png" alt="alan7" />
+                      <img src="persona7.jpg" alt="alan7" />
                     </div>
 
                     <div className="slide">
-                      <img src="persona.png" alt="alan8" />
+                      <img src="persona1.jpg" alt="alan8" />
                     </div>
                     <div className="slide">
-                      <img src="persona.png" alt="alan9" />
+                      <img src="persona2.jpg" alt="alan9" />
                     </div>
                     <div className="slide">
-                      <img src="persona.png" alt="alan10" />
+                      <img src="persona3.jpg" alt="alan10" />
                     </div>
                     <div className="slide">
-                      <img src="persona.png" alt="alan11" />
+                      <img src="persona4.jpg" alt="alan11" />
                     </div>
                     <div className="slide">
-                      <img src="persona.png" alt="alan12" />
+                      <img src="persona5.jpg" alt="alan12" />
                     </div>
                     <div className="slide">
-                      <img src="persona.png" alt="alan13" />
+                      <img src="persona6.jpg" alt="alan13" />
                     </div>
                     <div className="slide">
-                      <img src="persona.png" alt="alan14" />
+                      <img src="persona7.jpg" alt="alan14" />
                     </div>
                   </div>
                 </div>

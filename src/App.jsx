@@ -19,9 +19,14 @@ function App() {
           <Route path="about" element={<About />} />
           <Route path="formularioC" element={<FormularioC />} />
           <Route path="politicasdeprivacidad" element={<PoliticasdePrivacidad />} />
-          <Route path="servicios" element={<Servicios />} />
+          <Route path="servicios" element={<Servicios />} /> 
+          
+
+              
         </Route>
       </Routes>
+      
+      
     </BrowserRouter>
   );
 }
