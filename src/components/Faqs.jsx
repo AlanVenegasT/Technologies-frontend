@@ -14,7 +14,7 @@ const faqs = [
       "Ingrese la información en nuestra sección de contacto, e inmediato nos pondremos en contacto.",
   },
   {
-    question: "4.	Formas de Pago",
+    question: "Formas de Pago",
     answer:
       "Contamos con diferentes formas de pago",
   },

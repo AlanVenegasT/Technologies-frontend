@@ -1,4 +1,4 @@
-
+import {Link} from 'react-router-dom';
 import { EnvelopeIcon } from '@heroicons/react/20/solid'
 
 export default function Fcel ()  {
@@ -13,14 +13,17 @@ export default function Fcel ()  {
           <h4 className="text-xl md:text-base text-[#5A585B] py-8 pl-5 md:py-8 md:pl-5 lg:py-8 lg:pl-5">
           Nuestro compromiso es asesorar oportunamente a nuestros clientes para que tomen la mejor desición en seguros. Siempre la cobertura más completa al menor costo.
           </h4>
+
+          <Link to="/FormularioC">
           <button
-        type="button"
+        type="button" 
         className="inline-flex items-center rounded-md border border-transparent duration-700 hover:scale-110 bg-[#2B2C32] px-6 ml-10 py-3 md:px-5 md:ml-5 md:py-3 md:text-sm text-base font-medium text-[#EAFF6A] shadow-sm hover:bg-[#EAFF6A] focus:outline-none focus:ring-2 hover:text-[#2B2C32] focus:ring-[#2B2C32] focus:ring-offset-2"
       >
         <EnvelopeIcon className="-ml-1  h-5 w-10" aria-hidden="true" />
         Contactanos
       </button>
-      
+      </Link>
+
           </div>
         <div className="mt-16 md:col-span-7 md:col-start-6 md:mt-0 lg:col-span-7 lg:col-start-6 lg:mt-0">
           <h3 className="sr-only">Recent reviews</h3>

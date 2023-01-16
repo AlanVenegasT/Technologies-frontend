@@ -17,7 +17,7 @@ const solutions = [
   {
     name: 'Desarrollo Web',
     description: 'Get a better understanding of where your traffic is coming from.',
-    href: '/#web',
+    href: '#',
     icon: ChartBarIcon,
   },
   {
@@ -88,7 +88,7 @@ const Header = () => {
                 <Popover.Button
                   className={classNames(
                     open ? 'text-gray-900' : 'text-[#1F2023]',
-                    'group inline-flex items-center rounded-md bg-transparent text-base font-medium hover:text-white focus:outline-none focus:ring-2 focus:ring-transparent focus:ring-offset-2'
+                    'group inline-flex items-center  bg-transparent border-transparent text-base font-medium hover:text-white    '
                   )}
                 >
                   <span>Servicios</span>
@@ -229,6 +229,7 @@ const Header = () => {
           <div className="divide-y-2 divide-gray-50 rounded-lg bg-white shadow-lg ring-1 ring-black ring-opacity-5">
             <div className="px-5 pt-5 pb-6">
               <div className="flex items-center justify-between">
+                <Link to="/">
                 <div>
                   <img
                     className="h-8 w-auto"
@@ -236,6 +237,7 @@ const Header = () => {
                     alt="Your Company"
                   />
                 </div>
+                </Link>
                 <div className="-mr-2">
                   <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                     <span className="sr-only">Close menu</span>
@@ -262,7 +264,7 @@ const Header = () => {
             </div>
             <div className="py-6 px-5">
               <div className="grid grid-cols-2 gap-4">
-                <Link to="#" className="text-base font-medium text-black hover:text-white">
+                <Link to="#" className="text-base font-medium text-black hover:text-white   ">
                   Servicios
                 </Link>
 
@@ -288,7 +290,7 @@ const Header = () => {
               <div className="mt-6">
                 <a
                   href="/"
-                  className="flex w-full items-center justify-center rounded-md border border-transparent bg-gradient-to-r from-[#E990FF] via-[#B29DF9] to-[#83AEFB] px-4 py-2 text-base font-semibold text-[#1F2023] shadow-sm hover:bg-indigo-700"
+                  className="flex w-full items-center justify-center rounded-md border border-transparent bg-gradient-to-r from-[#E990FF] via-[#B29DF9] to-[#83AEFB] px-4 py-2 text-base font-semibold text-[#1F2023] shadow-sm "
                 >
                   Bienvenido
                 </a>
